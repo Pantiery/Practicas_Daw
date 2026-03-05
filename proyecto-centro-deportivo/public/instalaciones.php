@@ -1,0 +1,40 @@
+<?php include '../layout/header.php'; ?>
+
+<section class="container my-5">
+
+<h1 class="mb-4">Instalaciones</h1>
+
+<div class="row">
+
+<?php
+$imagen = "https://via.placeholder.com/400x250";
+$titulo = "Sala Polivalente";
+$descripcion = "Espacio para actividades deportivas y formativas.";
+$link = "#";
+
+include '../components/component-card.php';
+?>
+
+<?php
+$imagen = "https://via.placeholder.com/400x250";
+$titulo = "Pista de Pádel";
+$descripcion = "Pista exterior para partidos y entrenamiento.";
+$link = "#";
+
+include '../components/component-card.php';
+?>
+
+<?php
+$imagen = "https://via.placeholder.com/400x250";
+$titulo = "Dojo";
+$descripcion = "Espacio dedicado a artes marciales.";
+$link = "#";
+
+include '../components/component-card.php';
+?>
+
+</div>
+
+</section>
+
+<?php include '../layout/footer.php'; ?>
