@@ -21,7 +21,6 @@
     font-size: 1.2rem;
     color: #3188d9;
     font-family: "Share Tech Mono", monospace;
-    /* font-family: "Quicksand", sans-serif; */
 }
 .hero{
     background-color: #0f2a44;
@@ -115,6 +114,9 @@ section{
 .seccion-subtitulo {
     font-size: 1.2rem;
     font-family: "Share Tech Mono", monospace;
+}
+.seccion-texto {
+    font-family: "Quicksand", sans-serif;
 }
 
 /* Adaptables (Responsive)*/
