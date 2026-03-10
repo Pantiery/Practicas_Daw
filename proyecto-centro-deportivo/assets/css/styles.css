@@ -121,9 +121,9 @@ section{
 
 /* Adaptables (Responsive)*/
 /*boton navegador*/
-@media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
+@media screen and (max-width: 992px) {
+     .navbar-brand img{
+        width:100px;
     }
 }
 /*botones hero*/
@@ -172,4 +172,30 @@ section{
 html, body{
     margin: 0;
     overflow-x: hidden;
+}
+/* boton-arriba */
+#btnTop{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+
+  background-color: #ff7a00;
+  color: white;
+
+  border: none;
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#btnTop:hover{
+  background-color: #e66d00;
 }
