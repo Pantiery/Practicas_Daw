@@ -31,7 +31,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:160px;
 }
 .hero-carousel,
 .hero-carousel .carousel-inner,
@@ -149,9 +148,9 @@ section{
 }
 /* adapta sticky en moviles */
 @media (max-width:768px){
-.hero{
-    margin-top:90px;
-}
+    .body {
+        padding-top: 160px;
+    }
 }
 
 /* hover-nav */
