@@ -22,7 +22,7 @@
 </head>
 <body>
     <!-- Barra navegacion -->
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+     <nav class="navbar navbar-expand-xxl navbar-dark fixed-top">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@
       <a class="navbar-brand" href="#">
         <img src="../assets/img/iconoDeliciasS-removebg-preview.png" width="150" alt="logo_centro-deportivo">
       </a>
-      <ul class="navbar-nav mx-auto text-center">
+      <ul class="navbar-nav mx-auto text-center gap-5">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="../public/index.php">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Secciones</a>
@@ -49,6 +49,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://centrodelicias.org/calendario-eventos/" target="blank">Calendario</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Socios</a>
