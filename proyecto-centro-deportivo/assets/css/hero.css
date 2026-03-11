@@ -1,0 +1,54 @@
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    background-color: #0f2a44;
+    position: relative;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.hero-carousel{
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.hero-carousel,
+.hero-carousel .carousel-inner,
+.hero-carousel .carousel-item{
+    height: 100%;
+}
+
+.hero-carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 3rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.2rem;
+    color: #3188d9;
+    font-family: "Share Tech Mono", monospace;
+}

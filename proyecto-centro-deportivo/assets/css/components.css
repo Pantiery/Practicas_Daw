@@ -1,0 +1,118 @@
+/* =========================
+   BOTONES HERO
+========================= */
+
+.btn{
+    transition: all .25s ease;
+}
+
+.boton-hero {
+    font-family: "Share Tech Mono", monospace;
+}
+
+.btn-naranja{
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+    color: white;
+}
+
+.btn-naranja:hover{
+    background-color: #e66d00;
+    border-color: #e66d00;
+}
+
+.btn-outline-blanco{
+    border: 2px solid  #e66d00;
+    color:  white;
+}
+
+.btn-outline-blanco:hover{
+    background-color: white;
+    border-color: #e66d00;
+    color: #e66d00;
+}
+
+/* =========================
+   BOTONES HERO SECCIONES
+========================= */
+
+.btn{
+    transition: all .25s ease;
+}
+
+.boton-hero-secciones {
+    font-family: "Share Tech Mono", monospace;
+}
+
+.btn-naranja{
+    background-color: #ff7a00;
+    border-color: white;
+    color: white;
+}
+
+.btn-naranja:hover{
+    background-color: #e66d00;
+    border-color: #e66d00;
+}
+
+.btn-outline-verde{
+    border: 2px solid  rgb(35, 93, 35);
+    color:  white;
+}
+
+.btn-outline-verde:hover{
+    background-color: rgb(30, 77, 30);
+    color: white;
+}
+
+.btn-rojo{
+    background-color: rgb(133, 35, 35);
+    border-color: white;
+    color: white;
+}
+
+.btn-rojo:hover{
+    background-color: rgb(133, 35, 35);
+    border-color: rgb(133, 35, 35);
+    color: white;
+}
+
+.btn-outline-azul{
+    border: 2px solid  rgb(26, 26, 110);
+    color:  white;
+}
+
+.btn-outline-azul:hover{
+    background-color: rgb(32, 32, 122);
+    color: white;
+}
+
+/* =========================
+   BOTÓN VOLVER ARRIBA
+========================= */
+
+#btnTop{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+
+  background-color: #ff7a00;
+  color: white;
+
+  border: none;
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#btnTop:hover{
+  background-color: #e66d00;
+}

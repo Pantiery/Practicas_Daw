@@ -1,0 +1,101 @@
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* Navbar logo */
+
+@media screen and (max-width: 992px) {
+    .navbar-brand img{
+        width:100px;
+    }
+}
+
+/* Botones hero */
+
+@media (max-width: 767px){
+    .boton-hero{
+        min-width: 220px;
+    }
+}
+
+/* Hero título */
+
+@media (min-width: 768px){
+.hero-content{
+    transform: translateY(60px);
+}
+}
+
+@media (max-width:768px){
+
+.hero-content{
+    padding:2rem 1rem;
+}
+
+.seccion-titulo{
+    font-size:2rem;
+}
+
+}
+
+/* Sticky nav móviles */
+
+@media (max-width:768px){
+body {
+    padding-top: 80px;
+}
+}
+
+/* Menú colapsado */
+
+@media (max-width: 768px){
+.navbar-collapse{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+}
+
+/* ==============================
+   RESPONSIVE CAROUSEL SECCIONES
+================================= */
+
+/* tablets */
+
+@media (max-width: 992px){
+
+.card-seccion{
+    min-width: 220px;
+}
+
+.card-imagen{
+    height: 190px;
+}
+
+.carousel-track{
+    gap: 20px;
+}
+
+}
+
+/* móviles */
+
+@media (max-width: 576px){
+
+.card-seccion{
+    min-width: 170px;
+}
+
+.card-imagen{
+    height: 150px;
+}
+
+.carousel-track{
+    gap: 15px;
+    animation-duration: 20s;
+}
+
+.card-overlay{
+    gap: 40px;
+}
+
+}

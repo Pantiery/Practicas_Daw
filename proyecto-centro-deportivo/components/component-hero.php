@@ -6,11 +6,11 @@
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <img src="../assets/img/fondo_hero.jpg" class="d-block w-100">
+        <img src="../assets/img/hero/fondo_hero.jpg" class="d-block w-100">
       </div>
 
       <div class="carousel-item">
-        <img src="../assets/img/fondo_hero3.jpg" class="d-block w-100">
+        <img src="../assets/img/hero/fondo_hero3.jpg" class="d-block w-100">
       </div>
 
     </div>
@@ -25,7 +25,7 @@
 
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-3">
       <a href="#" class="boton-hero btn btn-naranja">Hazte socio</a>
-      <a href="#" class="boton-hero btn btn-outline-verde">Ver instalaciones</a>
+      <a href="#" class="boton-hero btn btn-outline-blanco">Ver instalaciones</a>
       </div>
   </div>
  </section>

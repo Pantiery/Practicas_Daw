@@ -1,4 +1,4 @@
-<footer class="bg-dark text-light pt-5 pb-3 mt-auto">
+<footer class="footer text-light pt-5 pb-3 mt-auto">
     <div class="container">
         <div class="row">
             <!-- Logo y contacto -->
@@ -11,7 +11,7 @@
                         class="text-decoration-none text-light seccion-texto">info@centrodelicias.org</a></p>
                 <p class="mb-2 seccion-texto"><i class="bi bi-telephone-fill"> 918 62 49 93</i></p>
                 <p class="mb-2 seccion-texto"><i class="bi bi-whatsapp"> 680-647-070 </i></p>
-                <img src="../assets/img/iconoDeliciasS-removebg-preview.png" alt="Logo" style="max-width:120px;"
+                <img src="../assets/img/logo-propio/logo-delicias.png" alt="Logo" style="max-width:120px;"
                     class="mb-3">
             </div>
             <!-- Enlaces -->
@@ -31,7 +31,7 @@
             <!-- Redes sociales -->
             <div class="col-md-4">
                 <h5 class="seccion-subtitulo">Síguenos en...</h5>
-                <div class="d-flex gap-3 mt-2">
+                <div class="d-flex gap-3 mt-2 justify-content-center">
                     <a href="https://www.facebook.com/centrodelicias" target="blank" class="text-light">
                         <i class="bi bi-facebook"></i>
                     </a>

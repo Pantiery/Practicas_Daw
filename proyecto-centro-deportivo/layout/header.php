@@ -15,7 +15,14 @@
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <!-- Enlace a CSS -->
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+  <link rel="stylesheet" href="../assets/css/hero.css">
+  <link rel="stylesheet" href="../assets/css/cards.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,15 +40,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/img/iconoDeliciasS-removebg-preview.png" width="150" alt="logo_centro-deportivo">
+        <a class="navbar-brand" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/index.php">
+          <img src="../assets/img/logo-propio/logo-delicias.png" width="150" alt="logo_centro-deportivo">
         </a>
         <ul class="navbar-nav mx-auto text-center gap-5">
           <li class="nav-item">
             <a class="nav-link" href="../public/index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Secciones</a>
+            <a class="nav-link" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/secciones.php">Secciones</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Medicina China</a>
@@ -53,7 +60,6 @@
 
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Reservar sala</a></li>
-              <li><a class="dropdown-item" href="#">Mis reservas</a></li>
               <li><a class="dropdown-item" href="#">Calendario de actividades</a></li>
             </ul>
           </li>
@@ -73,7 +79,6 @@
 
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
-              <li><a class="dropdown-item" href="#">Área privada</a></li>
               <li><a class="dropdown-item" href="#">Hazte socio</a></li>
             </ul>
           </li>
