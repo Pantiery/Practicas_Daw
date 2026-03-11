@@ -24,7 +24,7 @@
 
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-3">
       <a href="#" class="boton-hero-secciones btn btn-naranja">Deportes</a>
-      <a href="#" class="boton-hero-secciones btn btn-outline-verde">Ocio</a>
+      <a href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php" class="boton-hero-secciones btn btn-outline-verde">Ocio</a>
       <a href="#" class="boton-hero-secciones btn btn-rojo">Montaña</a>
       <a href="#" class="boton-hero-secciones btn btn-outline-azul">Cultura</a>
       </div>

@@ -18,7 +18,7 @@
       <!-- Imagen -->
       <div class="col-12 col-md-6">
         <div class="hero-img-wrapper">
-          <img src="../assets/img/Cafeteria_provisional.jpeg" alt="Cafetería" class="img-fluid rounded">
+          <img src="../assets/img/ocio/Cafeteria_provisional.jpeg" alt="Cafetería" class="img-fluid rounded">
         </div>
       </div>
 
@@ -37,7 +37,7 @@
       <!-- Imagen -->
       <div class="col-12 col-md-6 order-1 order-md-0">
         <div class="hero-img-wrapper">
-          <img src="../assets/img/Salon_de_actos_provisional.jpg" alt="Salón de actos" class="img-fluid rounded">
+          <img src="../assets/img/ocio/Salon_de_actos_provisional.jpg" alt="Salón de actos" class="img-fluid rounded">
         </div>
       </div>
 
@@ -82,7 +82,7 @@
       <!-- Imagen -->
       <div class="col-12 col-md-6">
         <div class="hero-img-wrapper">
-          <img src="../assets/img/Sala_de_juntas_provisional.jpg" alt="Sala de juntas" class="img-fluid rounded">
+          <img src="../assets/img/ocio/Sala_de_juntas_provisional.jpg" alt="Sala de juntas" class="img-fluid rounded">
         </div>
       </div>
 
@@ -101,7 +101,7 @@
       <!-- Imagen -->
       <div class="col-12 col-md-6 order-1 order-md-0">
         <div class="hero-img-wrapper">
-          <img src="../assets/img/Barbacoa_provisional.jpg" alt="Barbacoa" class="img-fluid rounded">
+          <img src="../assets/img/ocio/Barbacoa_provisional.jpg" alt="Barbacoa" class="img-fluid rounded">
         </div>
       </div>
 

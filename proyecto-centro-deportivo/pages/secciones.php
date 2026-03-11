@@ -51,7 +51,7 @@
         $imagen = "../assets/img/ocio/Barbacoa_provisional.jpg";
         $titulo = "Barbacoa";
         $descripcion = "Carne o verdura a la brasa.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -101,7 +101,7 @@
         $imagen = "../assets/img/ocio/Barbacoa_provisional.jpg";
         $titulo = "Barbacoa";
         $descripcion = "Carne o verdura a la brasa.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -135,7 +135,7 @@
         $imagen = "../assets/img/ocio/Cafeteria_provisional.jpeg";
         $titulo = "Cafetería";
         $descripcion = "Tu espacio, tu café.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -151,7 +151,7 @@
         $imagen = "../assets/img/ocio/Sala_de_juntas_provisional.jpg";
         $titulo = "Eventos";
         $descripcion = "Tus fiestas y eventos.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
         
@@ -179,7 +179,7 @@
         $imagen = "../assets/img/ocio/Cafeteria_provisional.jpeg";
         $titulo = "Cafetería";
         $descripcion = "Tu espacio, tu café.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -187,7 +187,7 @@
         $imagen = "../assets/img/cultura/danza.jpg";
         $titulo = "Danza";
         $descripcion = "¿Bailamos?.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -195,7 +195,7 @@
         $imagen = "../assets/img/ocio/Sala_de_juntas_provisional.jpg";
         $titulo = "Eventos";
         $descripcion = "Tus fiestas y eventos.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
         include '../components/component-seccion-card.php';
         ?>
 
