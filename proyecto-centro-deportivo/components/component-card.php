@@ -1,5 +1,5 @@
 <!-- Seccion-Card -->
-<div class="col-md-4 mb-4">
+<div class="col-md-4 mb-4 d-flex">
     <a href="<?= $link ?>" target="_blank" class="card-link">
 
         <div class="card">

@@ -1,0 +1,26 @@
+/* =========================
+   RESET / BASE
+========================= */
+
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* =========================
+   TIPOGRAFIA GENERAL
+========================= */
+
+.seccion-titulo {
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-family: "Rubik Dirt", system-ui, cursive;
+}
+
+.seccion-subtitulo {
+    font-size: 1.2rem;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.seccion-texto {
+    font-family: "Quicksand", sans-serif;
+}

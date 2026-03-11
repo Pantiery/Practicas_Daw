@@ -1,0 +1,135 @@
+/* =========================
+   CARDS
+========================= */
+
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card{
+    height: 100%;
+}
+
+/* Hover cards */
+
+.card-link .card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link:hover .card{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Imagen de fondo */
+
+.card-imagen{
+    height: 220px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Overlay */
+
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    text-align: center;
+
+    background: rgba(0,0,0,0.35);
+    color: white;
+}
+
+/* =========================
+   CAROUSEL SECCIONES
+========================= */
+
+.carousel-secciones{
+    overflow: hidden;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.carousel-track{
+    display: flex;
+    gap: 25px;
+    animation: scroll 30s linear infinite;
+}
+
+/* dirección contraria */
+
+.carousel-secciones.reverse .carousel-track{
+    animation-direction: reverse;
+}
+
+/* pausa al pasar ratón */
+
+.carousel-secciones:hover .carousel-track{
+    animation-play-state: paused;
+}
+
+/* animación */
+
+@keyframes scroll{
+
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+
+}
+
+.card-seccion{
+    min-width: 260px;
+    flex-shrink: 0;
+}
+
+.carousel-secciones{
+    position: relative;
+}
+
+.carousel-secciones::before,
+.carousel-secciones::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    z-index: 2;
+}
+
+.carousel-secciones::before{
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.carousel-secciones::after{
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+.seccion-carrusel{
+    background:white;
+}
