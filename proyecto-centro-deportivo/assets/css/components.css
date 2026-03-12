@@ -4,9 +4,6 @@
 
 .btn{
     transition: all .25s ease;
-}
-
-.boton-hero {
     font-family: "Share Tech Mono", monospace;
 }
 
@@ -36,23 +33,16 @@
    BOTONES HERO SECCIONES
 ========================= */
 
-.btn{
-    transition: all .25s ease;
-}
-
-.boton-hero-secciones {
-    font-family: "Share Tech Mono", monospace;
-}
-
-.btn-naranja{
-    background-color: #ff7a00;
+.btn-amarillo{
+    background-color: #cba81a;
     border-color: white;
     color: white;
 }
 
-.btn-naranja:hover{
-    background-color: #e66d00;
-    border-color: #e66d00;
+.btn-amarillo:hover{
+    background-color: #cba81a;
+    border-color: #cba81a;
+    color: white;
 }
 
 .btn-outline-verde{
@@ -84,6 +74,33 @@
 
 .btn-outline-azul:hover{
     background-color: rgb(32, 32, 122);
+    color: white;
+}
+
+/* =========================
+   BOTONES SECCIONES INTERNOS
+========================= */
+
+.btn-verde-interno{
+    background-color: rgb(35, 93, 35);
+    border-color: white;
+    color: white;
+}
+
+.btn-verde-interno:hover{
+    background-color: rgb(35, 93, 35);
+    border-color: rgb(35, 93, 35);
+    color: white;
+}
+
+.btn-outline-verde-interno{
+    background-color: white;
+    border: 2px solid  rgb(35, 93, 35);
+    color:  rgb(35, 93, 35);
+}
+
+.btn-outline-verde-interno:hover{
+    background-color: rgb(35, 93, 35);
     color: white;
 }
 
