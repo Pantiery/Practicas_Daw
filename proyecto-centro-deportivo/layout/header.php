@@ -39,11 +39,12 @@
         aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/index.php">
-          <img src="../assets/img/logo-propio/logo-delicias.png" width="150" alt="logo_centro-deportivo">
+      <a class="navbar-brand" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/index.php">
+          <img class="logo-navbar" src="../assets/img/logo-propio/logo-delicias.png" width="150" alt="logo_centro-deportivo">
         </a>
-        <ul class="navbar-nav mx-auto text-center gap-5">
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        
+        <ul class="navbar-nav mx-auto text-center gap-lg-5">
           <li class="nav-item">
             <a class="nav-link" href="../public/index.php">Inicio</a>
           </li>
@@ -58,7 +59,7 @@
               Reservas
             </a>
 
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="#">Reservar sala</a></li>
               <li><a class="dropdown-item" href="#">Calendario de actividades</a></li>
             </ul>

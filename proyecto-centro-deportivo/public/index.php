@@ -1,6 +1,28 @@
 <?php include '../layout/header.php'; ?>
 
-<?php include '../components/component-hero.php'; ?>
+        <?php
+
+        $tituloHero = "Centro Deportivo Delicias";
+
+        $subtituloHero = "Conoce más sobre nuestro Club Deportivo Delicias.";
+
+        $linkSubtitulo = "#";
+
+        $textoBoton1 = "Hazte socio";
+        $linkBoton1 = "#";
+
+        $textoBoton2 = "Ver instalaciones";
+        $linkBoton2 = "#";
+
+        $imagenesHero = [
+            "../assets/img/hero/fondo_hero.jpg",
+            "../assets/img/hero/fondo_hero3.jpg"
+        ];
+
+        include '../components/component-hero.php';
+
+        ?>
+
 
 <section class="container fondo-card-hero-principal my-5">
 

@@ -1,32 +1,43 @@
-<!-- Seccion-Hero -->
- <section class="hero">
+<section class="hero">
 
- <!-- Carousel fondo -->
+  <!-- Carousel fondo -->
   <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-inner">
 
-      <div class="carousel-item active">
-        <img src="../assets/img/hero/ferrocarril1.jpg" class="d-block w-100">
-      </div>
-
-      <div class="carousel-item">
-        <img src="../assets/img/hero/ferrocarril2.jpg" class="d-block w-100">
-      </div>
+      <?php foreach ($imagenesHero as $index => $img) { ?>
+        <div class="carousel-item <?php if ($index == 0) echo 'active'; ?>">
+          <img src="<?php echo $img; ?>" class="d-block w-100">
+        </div>
+      <?php } ?>
 
     </div>
   </div>
 
-    <!-- Contenido del hero -->
+  <!-- Contenido del hero -->
   <div class="hero-principal hero-content text-center">
-      <h1 class="seccion-titulo display-4">Secciones</h1>
-    
-      <h2 class="seccion-subtitulo">Espacios para disfrutar.</h2>
+      <h1 class="seccion-titulo display-4"><?php echo $tituloHero; ?></h1>
+
+      <h2 class="seccion-subtitulo"><?php echo $subtituloHero; ?></h2>
 
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-3">
-      <a href="#" class="boton-hero-secciones btn btn-naranja">Deportes</a>
-      <a href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php" class="boton-hero-secciones btn btn-outline-verde">Ocio</a>
-      <a href="#" class="boton-hero-secciones btn btn-rojo">Montaña</a>
-      <a href="#" class="boton-hero-secciones btn btn-outline-azul">Cultura</a>
-      </div>
+
+      <a href="<?php echo $linkBoton1; ?>" class="btn btn-amarillo">
+        <?php echo $textoBoton1; ?>
+      </a>
+
+      <a href="<?php echo $linkBoton2; ?>" class="boton-hero-secciones btn btn-outline-verde">
+        <?php echo $textoBoton2; ?>
+      </a>
+
+      <a href="<?php echo $linkBoton3; ?>" class="btn btn-rojo">
+        <?php echo $textoBoton3; ?>
+      </a>
+
+      <a href="<?php echo $linkBoton4; ?>" class="btn btn-outline-azul">
+        <?php echo $textoBoton4; ?>
+      </a>
+
+    </div>
   </div>
- </section>
+
+</section>
