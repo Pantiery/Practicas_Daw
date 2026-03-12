@@ -1,5 +1,41 @@
 <?php include '../layout/header.php'; ?>
-<?php include '../components/component-hero-secciones.php'; ?>
+
+
+<?php
+
+$tituloHero = "Secciones";
+
+$subtituloHero = "Espacios para disfrutar.";
+
+$linkSubtitulo = "#";
+
+$imagenesHero = [
+    "../assets/img/hero/ferrocarril1.jpg",
+    "../assets/img/hero/ferrocarril2.jpg",
+    "../assets/img/hero/ferrocarril3.jpg",
+    "../assets/img/hero/ferrocarril4.jpg"
+];
+
+$textoBoton1 = "Deportes";
+$linkBoton1 = "#";
+$claseBoton1 = "btn btn-amarillo";
+
+$textoBoton2 = "Ocio";
+$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+$claseBoton2 = "boton-hero-secciones btn btn-outline-verde";
+
+$textoBoton3 = "Montaña";
+$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php";
+$claseBoton3 = "btn btn-rojo";
+
+$textoBoton4 = "Cultura";
+$linkBoton4 = "#";
+$claseBoton4 = "btn btn-outline-azul";
+
+include '../components/component-hero-secciones.php';
+
+?>
+
 
 <!-- FILA SUPERIOR -->
 
