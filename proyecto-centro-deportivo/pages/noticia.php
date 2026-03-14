@@ -5,32 +5,17 @@
 $id = $_GET['id'] ?? null;
 $origen = $_GET['origen'] ?? 'noticias';
 
-switch($origen){
+/* CONFIG SECCIONES */
 
-    case "montana":
-        $volver = "../pages/montaña.php";
-        $claseBoton = "btn btn-rojo";
-        break;
+require __DIR__ . '/../config/secciones-config.php';
 
-    case "cultura":
-        $volver = "../pages/cultura.php";
-        $claseBoton = "btn btn-outline-azul";
-        break;
+$seccionActual = $SECCIONES[$origen] ?? $SECCIONES["noticias"];
 
-    case "deportes":
-        $volver = "../pages/deportes.php";
-        $claseBoton = "btn btn-amarillo";
-        break;
+$volver = $seccionActual["pagina"];
+$claseBoton = $seccionActual["color"];
+$textoSeccion = $seccionActual["nombre"];
 
-    case "centro":
-        $volver = "../public/index.php";
-        $claseBoton = "btn btn-naranja";
-        break;
-
-    default:
-        $volver = "../pages/noticias.php";
-        $claseBoton = "btn btn-outline-dark";
-}
+/* CARGAR NOTICIAS */
 
 $archivo = __DIR__ . '/../data/noticias.json';
 $noticias = json_decode(file_get_contents($archivo), true);
@@ -44,18 +29,34 @@ foreach($noticias as $n){
     }
 }
 
+/* SI NO EXISTE */
+
 if(!$noticiaActual){
     echo "<p>Noticia no encontrada</p>";
     include __DIR__ . '/../layout/footer.php';
     exit;
 }
 
+/* NOTICIAS RELACIONADAS */
+
+$categoriaActual = $noticiaActual['categoria'];
+
+$relacionadas = array_filter($noticias, function($n) use ($categoriaActual, $id){
+    return $n['categoria'] === $categoriaActual && $n['id'] != $id;
+});
+
+usort($relacionadas, function($a, $b){
+    return strtotime($b['fecha']) - strtotime($a['fecha']);
+});
+
+$relacionadas = array_slice($relacionadas, 0, 3);
+
 ?>
 
 <section class="container pagina-noticia">
 
 <a href="<?= $volver ?>" class="<?= $claseBoton ?> mb-4">
-← Volver a <?= ucfirst($origen) ?>
+← Volver a <?= $textoSeccion ?>
 </a>
 
 <h1 class="mb-3">
@@ -74,6 +75,26 @@ class="img-fluid rounded mb-4"
 <p class="lead">
 <?= $noticiaActual['texto'] ?>
 </p>
+
+<?php if(!empty($relacionadas)): ?>
+
+<hr class="my-5">
+
+<h3 class="mb-4">Noticias relacionadas</h3>
+
+<div class="grid-noticias">
+
+<?php
+$categoria = $categoriaActual;
+
+foreach ($relacionadas as $noticia){
+    include __DIR__ . '/../components/component-card-noticia.php';
+}
+?>
+
+</div>
+
+<?php endif; ?>
 
 </section>
 

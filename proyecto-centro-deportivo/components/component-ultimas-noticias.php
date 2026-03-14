@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/../config/secciones-config.php';
+
 $archivo = __DIR__ . '/../data/noticias.json';
 
 if(file_exists($archivo)){
@@ -28,6 +30,11 @@ usort($noticias, function($a, $b){
 
 $ultimas = array_slice($noticias, 0, 8);
 
+/* color botón */
+
+$seccionActual = $SECCIONES[$categoria ?? "noticias"];
+$colorBoton = $seccionActual["color"];
+
 ?>
 
 <section class="seccion-noticias container-fluid px-5">
@@ -51,7 +58,7 @@ $ultimas = array_slice($noticias, 0, 8);
 </div>
 
 <div class="noticias-boton">
-    <a href="../pages/noticias.php" class="btn btn-dark">
+    <a href="../pages/noticias.php" class="<?= $colorBoton ?>">
         Ver todas las noticias
     </a>
 </div>
