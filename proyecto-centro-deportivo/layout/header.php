@@ -40,7 +40,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/index.php">
-          <img class="logo-navbar" src="../assets/img/logo-propio/logo-delicias.png" width="150" alt="logo_centro-deportivo">
+          <img class="logo-navbar" src="<?= $logoNavbar ?? '../assets/img/logos/logo-propio/logo-delicias.png' ?>" width="150" alt="logo_centro-deportivo">
         </a>
       <div class="collapse navbar-collapse" id="navbar-toggler">
         
@@ -71,6 +71,9 @@
             <a class="nav-link" href="#">Contacto</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">Instalaciones</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="https://centrodelicias.org/calendario-eventos/" target="blank">Calendario</a>
           </li>
           <li class="nav-item dropdown">
@@ -80,6 +83,8 @@
 
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+              <li><a class="dropdown-item" href="#">Estatuto y reglamento</a></li>
+              <li><a class="dropdown-item" href="#">Precios</a></li>
               <li><a class="dropdown-item" href="#">Hazte socio</a></li>
             </ul>
           </li>

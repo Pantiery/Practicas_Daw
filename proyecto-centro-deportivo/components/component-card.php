@@ -1,8 +1,8 @@
 <!-- Seccion-Card -->
 <div class="col-md-4 mb-4 d-flex">
-    <a href="<?= $link ?>" target="_blank" class="card-link">
+    <a href="<?= $link ?>" target="_blank" class="card-link w-100">
 
-        <div class="card">
+        <div class="card h-100">
 
             <div class="card-img-container">
                 <img src="<?= $imagen ?>" class="card-img-top">

@@ -99,3 +99,41 @@ body {
 }
 
 }
+
+/* =========================
+   RESPONSIVE NOTICIAS
+========================= */
+
+@media (max-width:576px){
+
+.grid-noticias{
+    gap:20px;
+}
+
+}
+
+@media (max-width:992px){
+
+.grid-noticias{
+    grid-template-columns:1fr 1fr;
+}
+
+.grid-noticias a:first-child{
+    grid-column:span 2;
+}
+
+}
+
+/* moviles */
+@media (max-width:576px){
+
+.grid-noticias{
+    grid-template-columns:1fr;
+}
+
+.grid-noticias a:first-child{
+    grid-column:auto;
+    grid-row:auto;
+}
+
+}
