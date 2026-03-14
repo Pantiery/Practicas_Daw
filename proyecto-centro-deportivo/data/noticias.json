@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "titulo": "Salida a Peñalara",
+    "categoria": "montana",
+    "fecha": "2026-03-14",
+    "imagen": "parque-natural-penalara.jpg",
+    "texto": "El próximo domingo se realizará una salida al Parque Natural de Peñalara con salida desde el centro a las 7:00. Se recomienda llevar ropa de abrigo y agua suficiente."
+  },
+  {
+    "id": 2,
+    "titulo": "Torneo deportivo",
+    "categoria": "deportes",
+    "fecha": "2026-03-10",
+    "imagen": "torneo-padel.png",
+    "texto": "El centro organiza un torneo deportivo abierto a socios y amigos. Las inscripciones estarán abiertas hasta el jueves previo al evento."
+  },
+  {
+    "id": 3,
+    "titulo": "Curso de iniciación al senderismo",
+    "categoria": "montana",
+    "fecha": "2026-03-08",
+    "imagen": "curso-senderismo.jpg",
+    "texto": "Se abre el plazo de inscripción para el curso de iniciación al senderismo dirigido a nuevos socios interesados en aprender técnicas básicas de montaña."
+  },
+  {
+    "id": 4,
+    "titulo": "Exposición cultural de primavera",
+    "categoria": "cultura",
+    "fecha": "2026-03-06",
+    "imagen": "exposicion-cultural.jpg",
+    "texto": "Durante todo el mes de abril el centro acogerá una exposición cultural con obras de artistas locales y actividades abiertas al público."
+  },
+  {
+    "id": 5,
+    "titulo": "Nueva actividad de yoga",
+    "categoria": "cultura",
+    "fecha": "2026-03-05",
+    "imagen": "yoga-actividad.jpg",
+    "texto": "Se incorpora una nueva actividad de yoga para socios todos los martes y jueves por la tarde en la sala polivalente del centro."
+  },
+  {
+    "id": 6,
+    "titulo": "Partido amistoso de fútbol",
+    "categoria": "deportes",
+    "fecha": "2026-03-03",
+    "imagen": "partido-futbol.jpg",
+    "texto": "El equipo del centro disputará un partido amistoso contra un club invitado este sábado en el campo principal."
+  },
+  {
+    "id": 7,
+    "titulo": "Ruta de montaña por La Pedriza",
+    "categoria": "montana",
+    "fecha": "2026-02-28",
+    "imagen": "ruta-pedriza.jpg",
+    "texto": "Nueva ruta organizada por la sección de montaña para recorrer algunos de los parajes más emblemáticos de La Pedriza."
+  },
+  {
+    "id": 8,
+    "titulo": "Taller de fotografía de naturaleza",
+    "categoria": "cultura",
+    "fecha": "2026-02-25",
+    "imagen": "taller-fotografia.jpg",
+    "texto": "El centro organiza un taller de fotografía de naturaleza para aprender técnicas básicas de composición y fotografía en exteriores."
+  },
+  {
+    "id": 9,
+    "titulo": "Jornada de puertas abiertas",
+    "categoria": "centro",
+    "fecha": "2026-02-20",
+    "imagen": "puertas-abiertas.jpg",
+    "texto": "El centro deportivo celebrará una jornada de puertas abiertas para que nuevos visitantes conozcan nuestras instalaciones y actividades."
+  },
+  {
+    "id": 10,
+    "titulo": "Salida nocturna de montaña",
+    "categoria": "montana",
+    "fecha": "2026-02-18",
+    "imagen": "ruta-nocturna.jpg",
+    "texto": "Se organiza una salida nocturna guiada por la sección de montaña. Es obligatorio llevar frontal y ropa adecuada."
+  },
+  {
+    "id": 11,
+    "titulo": "Campeonato interno de pádel",
+    "categoria": "deportes",
+    "fecha": "2026-02-15",
+    "imagen": "campeonato-padel.jpg",
+    "texto": "Los socios podrán participar en el campeonato interno de pádel que se celebrará durante todo el mes."
+  },
+  {
+    "id": 12,
+    "titulo": "Concierto acústico en el centro",
+    "categoria": "cultura",
+    "fecha": "2026-02-12",
+    "imagen": "concierto-acustico.jpg",
+    "texto": "Un grupo local ofrecerá un concierto acústico en el salón principal del centro el próximo viernes por la tarde."
+  }
+]
