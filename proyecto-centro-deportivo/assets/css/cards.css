@@ -6,6 +6,7 @@
     text-decoration: none;
     color: inherit;
     display: block;
+    width:100%;
 }
 
 /* Hover cards */
@@ -188,8 +189,11 @@
 ========================= */
 
 .card-noticia .card-body{
-    padding: 20px;
-    flex: 1;
+    padding:20px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    height:100%;
 }
 
 /* categoria */
@@ -270,12 +274,6 @@
     margin-bottom:35px;
 }
 
-.card-noticia .card-body{
-    display:flex;
-    flex-direction:column;
-    height:100%;
-}
-
 .noticia-texto{
     font-size:0.9rem;
     margin-top:10px;
@@ -295,10 +293,6 @@
     overflow:hidden;
     height:100%;
     min-height:380px;
-}
-
-.card-link{
-    width:100%;
 }
 
 /* Editar estilo svg de condiciones */
