@@ -8,15 +8,6 @@
                 </h2>
             <?php endif; ?>
 
-            <!-- Texto -->
-            <div class="col-12 col-md-6">
-                <h1 class="seccion-titulo"><?= $titulo ?></h1>
-
-                <p class="seccion-texto mt-3">
-                    <?= $descripcion ?>
-                </p>
-            </div>
-
             <!-- Imagen -->
             <div class="col-12 col-md-6">
                 <div class="hero-img-wrapper">
@@ -25,6 +16,15 @@
                         <img src="<?= $imagen ?>" alt="<?= $titulo ?>" class="img-fluid rounded">
                     </a>
                 </div>
+            </div>
+
+            <!-- Texto -->
+            <div class="col-12 col-md-6">
+                <h1 class="seccion-titulo"><?= $titulo ?></h1>
+
+                <p class="seccion-texto mt-3">
+                    <?= $descripcion ?>
+                </p>
             </div>
 
         </div>
