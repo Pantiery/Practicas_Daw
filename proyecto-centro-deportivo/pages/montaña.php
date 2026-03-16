@@ -69,6 +69,28 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';?>
 
 <hr class="w-50 mx-auto">
 
+<?php
+
+$textoBoton1 = "Normativa";
+$linkBoton1 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
+$claseBoton1 = "btn btn-amarillo";
+
+$textoBoton2 = "Condiciones";
+$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+$claseBoton2 = "boton-hero-secciones btn btn-outline-verde";
+
+$textoBoton3 = "Licencia";
+$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php";
+$claseBoton3 = "btn btn-rojo";
+
+$textoBoton4 = "Marchas";
+$linkBoton4 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
+$claseBoton4 = "btn btn-outline-azul";
+
+include '../components/component-card-botones.php';
+
+?>
+
 <!-- card-montaña -->
 
 <?php
@@ -77,7 +99,7 @@ $titulo = "NORMAS PARA LA ADJUDICACIÓN DE PLAZAS EN LAS
 SALIDAS DE LA SECCIÓN DE MONTAÑA";
 $descripcion = "Para consultar las normas completas de reserva de plazas para las salidas del
 Centro Deportivo Delicias Madrid, puede acceder al documento oficial en formato PDF.";
-$imagen = "../assets/documentos/030123-NORMAS-PARA-LA-ADJUDICACION-DE-PLAZAS-EN-LAS-SALIDAS-DE-LA-SECCION-DE-MONTANA.jpg";
+$imagen = "../assets/img/cards/card-montaña/030123-NORMAS-PARA-LA-ADJUDICACION-DE-PLAZAS-EN-LAS-SALIDAS-DE-LA-SECCION-DE-MONTANA.jpg";
 
 include '../components/component-card-TIE.php';
 ?>

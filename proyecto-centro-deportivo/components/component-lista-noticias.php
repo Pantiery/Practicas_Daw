@@ -1,18 +1,8 @@
 <?php
 
-$archivo = __DIR__ . '/../data/noticias.json';
+require_once __DIR__ . '/../helpers/noticias.php';
 
-if(file_exists($archivo)){
-    $noticias = json_decode(file_get_contents($archivo), true);
-}else{
-    $noticias = [];
-}
-
-/* ordenar por fecha */
-
-usort($noticias, function($a,$b){
-    return strtotime($b['fecha']) - strtotime($a['fecha']);
-});
+$noticias = cargarNoticias();
 
 ?>
 
