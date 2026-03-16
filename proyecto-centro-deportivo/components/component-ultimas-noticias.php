@@ -1,14 +1,9 @@
 <?php
 
 require __DIR__ . '/../config/secciones-config.php';
+require_once __DIR__ . '/../helpers/noticias.php';
 
-$archivo = __DIR__ . '/../data/noticias.json';
-
-if(file_exists($archivo)){
-    $noticias = json_decode(file_get_contents($archivo), true);
-}else{
-    $noticias = [];
-}
+$noticias = cargarNoticias();
 
 /* FILTRAR POR CATEGORIA SI EXISTE */
 
@@ -19,12 +14,6 @@ if(isset($categoria)){
     });
 
 }
-
-/* ordenar por fecha */
-
-usort($noticias, function($a, $b){
-    return strtotime($b['fecha']) - strtotime($a['fecha']);
-});
 
 /* coger las últimas 8 */
 

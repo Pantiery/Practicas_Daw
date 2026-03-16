@@ -2,7 +2,6 @@
 
 
 <!-- hero -->
- 
 <?php
 
 $tituloHero = "Ocio";

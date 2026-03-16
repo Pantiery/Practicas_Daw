@@ -8,11 +8,6 @@
     display: block;
 }
 
-.card-noticia{
-    display:flex;
-    flex-direction:column;
-}
-
 /* Hover cards */
 
 .card-link .card{
@@ -71,11 +66,11 @@
 /* =========================
    CAROUSEL SECCIONES
 ========================= */
-
 .carousel-secciones{
-    overflow: hidden;
-    width: 100%;
-    padding: 40px 0;
+    overflow:hidden;
+    width:100%;
+    padding:40px 0;
+    position:relative;
 }
 
 .carousel-track{
@@ -113,10 +108,6 @@
 .card-seccion{
     min-width: 260px;
     flex-shrink: 0;
-}
-
-.carousel-secciones{
-    position: relative;
 }
 
 .carousel-secciones::before,
@@ -196,17 +187,6 @@
    SECCION NOTICIAS
 ========================= */
 
-.seccion-noticias{
-    padding: 80px 0;
-}
-
-/* card noticias */
-
-.card-noticia{
-    border-radius: 12px;
-    overflow: hidden;
-}
-
 .card-noticia .card-body{
     padding: 20px;
     flex: 1;
@@ -281,18 +261,13 @@
 }
 /* fin periodico */
 .seccion-noticias{
+    padding:80px 0;
     margin-top:70px;
     margin-bottom:70px;
 }
 
 .seccion-noticias h2{
     margin-bottom:35px;
-}
-
-.card-noticia{
-    display:flex;
-    flex-direction:column;
-    height:100%;
 }
 
 .card-noticia .card-body{
@@ -308,15 +283,18 @@
     display:-webkit-box;
     -webkit-line-clamp:3;
     -webkit-box-orient:vertical;
+
     overflow:hidden;
+    line-clamp:3;
 }
 
 .card-noticia{
-    min-height:380px;
-}
-
-.card-noticia{
+    display:flex;
+    flex-direction:column;
+    border-radius:12px;
+    overflow:hidden;
     height:100%;
+    min-height:380px;
 }
 
 .card-link{

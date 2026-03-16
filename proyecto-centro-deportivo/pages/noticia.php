@@ -1,13 +1,14 @@
-<?php include __DIR__ . '/../layout/header.php'; ?>
-
 <?php
+
+require_once __DIR__ . '/../helpers/noticias.php';
+require __DIR__ . '/../config/secciones-config.php';
+
+include __DIR__ . '/../layout/header.php';
 
 $id = $_GET['id'] ?? null;
 $origen = $_GET['origen'] ?? 'noticias';
 
 /* CONFIG SECCIONES */
-
-require __DIR__ . '/../config/secciones-config.php';
 
 $seccionActual = $SECCIONES[$origen] ?? $SECCIONES["noticias"];
 
@@ -17,17 +18,7 @@ $textoSeccion = $seccionActual["nombre"];
 
 /* CARGAR NOTICIAS */
 
-$archivo = __DIR__ . '/../data/noticias.json';
-$noticias = json_decode(file_get_contents($archivo), true);
-
-$noticiaActual = null;
-
-foreach($noticias as $n){
-    if($n['id'] == $id){
-        $noticiaActual = $n;
-        break;
-    }
-}
+$noticiaActual = obtenerNoticiaPorId($id);
 
 /* SI NO EXISTE */
 
@@ -40,18 +31,11 @@ if(!$noticiaActual){
 /* NOTICIAS RELACIONADAS */
 
 $categoriaActual = $noticiaActual['categoria'];
-
-$relacionadas = array_filter($noticias, function($n) use ($categoriaActual, $id){
-    return $n['categoria'] === $categoriaActual && $n['id'] != $id;
-});
-
-usort($relacionadas, function($a, $b){
-    return strtotime($b['fecha']) - strtotime($a['fecha']);
-});
-
-$relacionadas = array_slice($relacionadas, 0, 3);
+$relacionadas = obtenerNoticiasRelacionadas($categoriaActual, $id);
 
 ?>
+
+<!-- card-noticias -->
 
 <section class="container pagina-noticia">
 
