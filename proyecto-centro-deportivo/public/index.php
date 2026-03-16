@@ -1,5 +1,7 @@
 <?php include '../layout/header.php'; ?>
 
+<!-- hero -->
+
 <?php
 
 $tituloHero = "Centro Deportivo Delicias";

@@ -72,6 +72,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';?>
 <!-- card-montaña -->
 
 <?php
+$tituloExtra = "Normativa";
 $titulo = "NORMAS PARA LA ADJUDICACIÓN DE PLAZAS EN LAS
 SALIDAS DE LA SECCIÓN DE MONTAÑA";
 $descripcion = "Para consultar las normas completas de reserva de plazas para las salidas del
@@ -84,6 +85,7 @@ include '../components/component-card-TIE.php';
 <hr class="w-50 mx-auto">
 
 <?php
+$tituloExtra = "Condiciones";
 $titulo = "Salón de actos";
 $descripcion = "Lorem ipsum dolor sit amet...";
 $imagen = "../assets/img/cards/card-montaña/montaña2.webp";
@@ -95,6 +97,7 @@ include '../components/component-card-TI-invertida.php';
 <hr class="w-50 mx-auto">
 
 <?php
+$tituloExtra = "Licencia";
 $titulo = "Cafetería";
 $descripcion = "Lorem ipsum dolor sit amet...";
 $imagen = "../assets/img/cards/card-montaña/montaña3.jpg";
@@ -105,6 +108,7 @@ include '../components/component-card-TI.php';
 <hr class="w-50 mx-auto">
 
 <?php
+$tituloExtra = "Marchas";
 $titulo = "Salón de actos";
 $descripcion = "Lorem ipsum dolor sit amet...";
 $imagen = "../assets/img/cards/card-montaña/montaña4.jpg";

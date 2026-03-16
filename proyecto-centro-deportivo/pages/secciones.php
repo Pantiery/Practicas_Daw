@@ -44,7 +44,7 @@ include '../components/component-hero-secciones.php';
     <div class="carousel-track">
 
         <?php
-        $imagen = "../assets/img/cards/card-montaña/montana1.jpg";
+        $imagen = "../assets/img/cards/card-secciones/montana1.jpg";
         $titulo = "Montaña";
         $descripcion = "Camina al aire libre, sé libre.";
         $link = "montaña.php";
@@ -94,7 +94,7 @@ include '../components/component-hero-secciones.php';
         <!-- DUPLICADAS SUPERIOR -->
 
         <?php
-        $imagen = "../assets/img/cards/card-montaña/montana1.jpg";
+        $imagen = "../assets/img/cards/card-secciones/montana1.jpg";
         $titulo = "Montaña";
         $descripcion = "Camina al aire libre, sé libre.";
         $link = "montaña.php";
