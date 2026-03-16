@@ -2,9 +2,9 @@
   <div class="container seccion-montaña">
     <div class="row align-items-center g-5">
 
-   <?php if (!empty($tituloExtra)): ?>
-                <h2 class="seccion-subtitulo text-center mb-4"><?= $tituloExtra ?></h2>
-            <?php endif; ?>
+      <?php if (!empty($tituloExtra)): ?>
+        <h2 class="seccion-subtitulo text-center mb-4"><?= $tituloExtra ?></h2>
+      <?php endif; ?>
 
       <!-- Texto -->
       <div class="col-12 col-md-6">
@@ -13,7 +13,7 @@
         <p class="seccion-texto mt-3">
           <?= $descripcion ?>
         </p>
-        </div>
+      </div>
 
       <!-- Imagen -->
       <div class="col-12 col-md-6">
