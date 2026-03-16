@@ -8,8 +8,13 @@
     display: block;
 }
 
-.card{
+/* .card{
     height: 100%;
+} */
+
+.card-noticia{
+    display:flex;
+    flex-direction:column;
 }
 
 /* Hover cards */
@@ -35,6 +40,14 @@
     position: relative;
     border-radius: 8px;
     overflow: hidden;
+}
+
+.fondo-card-hero-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* Overlay */
@@ -133,3 +146,194 @@
 .seccion-carrusel{
     background:white;
 }
+
+/* =========================
+   CARD TEXTO SOMBREADO MONTAÑA
+========================= */
+
+.texto-federacion{
+    color: #ff7a00;
+}
+
+.h1-federacion{
+    font-size: 1.8rem;
+}
+
+.texto-generico{
+    text-align: center;
+}
+
+.enlace-federacion {
+    text-decoration: none;
+    color: inherit;
+}
+
+.enlace-federacion .sombra-card{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enlace-federacion:hover .sombra-card{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   CARD TEXTO MONTAÑA
+========================= */
+
+.seccion-montaña .seccion-titulo{
+    font-size: 1.4rem;
+}
+
+.seccion-montaña .seccion-subtitulo{
+    font-size: 1rem;
+}
+
+.seccion-montaña .seccion-texto{
+    font-size: 1rem;
+}
+
+/* =========================
+   SECCION NOTICIAS
+========================= */
+
+.seccion-noticias{
+    padding: 80px 0;
+}
+
+/* card noticias */
+
+.card-noticia{
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-noticia .card-body{
+    padding: 20px;
+    flex: 1;
+}
+
+/* categoria */
+
+.noticia-categoria{
+    background: rgba(0,0,0,0.6);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* titulo */
+
+.noticia-titulo{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* fecha */
+
+.noticia-fecha{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+/* texto */
+
+.noticia-texto{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* boton */
+
+.noticias-boton{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-noticia .card-imagen{
+    height:200px;
+}
+
+/* CONTENEDOR NOTICIAS ANCHO */
+
+/* GRID NOTICIAS */
+
+.grid-noticias{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:30px;
+}
+
+.grid-noticias a:first-child{
+    grid-row: span 2;
+}
+
+.grid-noticias a:first-child .card-imagen{
+    height:100%;
+}
+
+.grid-noticias a:first-child .noticia-titulo{
+    font-size:1.5rem;
+}
+
+.grid-noticias a:first-child .noticia-texto{
+    font-size:1rem;
+}
+/* fin periodico */
+.seccion-noticias{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+.seccion-noticias h2{
+    margin-bottom:35px;
+}
+
+.card-noticia{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.card-noticia .card-body{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.noticia-texto{
+    font-size:0.9rem;
+    margin-top:10px;
+
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+
+.card-noticia{
+    min-height:380px;
+}
+
+.card-noticia{
+    height:100%;
+}
+
+.card-link{
+    width:100%;
+}
+
+/* .container-noticias{
+    width:100%;
+    max-width:1600px;
+    margin:auto;
+}
+
+.badge-montana{background:#2f6b2f;}
+.badge-deportes{background:#0066cc;}
+.badge-cultura{background:#8b3bbf;}
+.badge-centro{background:#ff7a00;} */

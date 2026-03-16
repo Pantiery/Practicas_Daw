@@ -17,12 +17,6 @@
                     <?= $descripcion ?>
                 </p>
 
-                <div class="d-flex gap-2 mt-4 justify-content-md-end">
-                    <button class="btn btn-verde-interno"><?= $boton1 ?></button>
-                    <button class="btn btn-outline-verde-interno"><?= $boton2 ?></button>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
