@@ -9,7 +9,7 @@
   <!-- Titulo -->
   <title>Club Delicias | Centro Deportivo Delicias</title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="../assets/img/iconoDeliciasS-removebg-preview.png">
+  <link rel="icon" type="image/x-icon" href="../assets/img/logos/logo-propio/logo-delicias.png">
   <!-- Enlace Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Iconos -->

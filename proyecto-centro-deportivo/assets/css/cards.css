@@ -8,10 +8,6 @@
     display: block;
 }
 
-/* .card{
-    height: 100%;
-} */
-
 .card-noticia{
     display:flex;
     flex-direction:column;
@@ -327,13 +323,7 @@
     width:100%;
 }
 
-/* .container-noticias{
-    width:100%;
-    max-width:1600px;
-    margin:auto;
-}
-
-.badge-montana{background:#2f6b2f;}
+/* .badge-montana{background:#2f6b2f;}
 .badge-deportes{background:#0066cc;}
 .badge-cultura{background:#8b3bbf;}
-.badge-centro{background:#ff7a00;} */
+.badge-centro{background:#ff7a00;}  */
