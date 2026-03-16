@@ -1,5 +1,8 @@
 <?php include '../layout/header.php'; ?>
 
+
+<!-- hero -->
+ 
 <?php
 
 $tituloHero = "Ocio";
@@ -33,7 +36,7 @@ include '../components/component-hero-secciones.php';
 
 ?>
 
-
+<!-- cards -->
 
 
 <?php

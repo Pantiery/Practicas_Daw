@@ -14,7 +14,9 @@
       <!-- Imagen -->
       <div class="col-12 col-md-6">
         <div class="hero-img-wrapper">
+         <a href="../assets/documentos/030123-NORMAS-PARA-LA-ADJUDICACION-DE-PLAZAS-EN-LAS-SALIDAS-DE-LA-SECCION-DE-MONTANA.pdf" target="_blank">
           <img src="<?= $imagen ?>" alt="<?= $titulo ?>" class="img-fluid rounded">
+        </a>
         </div>
       </div>
 
