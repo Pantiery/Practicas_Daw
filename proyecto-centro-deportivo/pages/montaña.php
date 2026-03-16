@@ -78,7 +78,7 @@ $descripcion = "Para consultar las normas completas de reserva de plazas para la
 Centro Deportivo Delicias Madrid, puede acceder al documento oficial en formato PDF.";
 $imagen = "../assets/documentos/030123-NORMAS-PARA-LA-ADJUDICACION-DE-PLAZAS-EN-LAS-SALIDAS-DE-LA-SECCION-DE-MONTANA.jpg";
 
-include '../components/component-card-TI.php';
+include '../components/component-card-TIE.php';
 ?>
 
 <hr class="w-50 mx-auto">
