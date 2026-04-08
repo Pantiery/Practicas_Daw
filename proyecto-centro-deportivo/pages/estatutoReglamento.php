@@ -1,2 +1,2 @@
 <?php include '../layout/header-socios.php'; ?>
-<h1>PAGINA DE PRECIOS EN OBRAS</h1>
+<h1>Estatuto y Reglamentos</h1>

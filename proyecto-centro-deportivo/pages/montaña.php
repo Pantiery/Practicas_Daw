@@ -1,5 +1,4 @@
 <?php
-$logoNavbar = "../assets/img/logos/logo-montaña/logo-montaña.png";
 include("../layout/header.php");
 ?>
 
@@ -16,22 +15,6 @@ $imagenesHero = [
     "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
     "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
 ];
-
-$textoBoton1 = "Deportes";
-$linkBoton1 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
-$claseBoton1 = "btn btn-amarillo";
-
-$textoBoton2 = "Ocio";
-$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
-$claseBoton2 = "boton-hero-secciones btn btn-outline-verde";
-
-$textoBoton3 = "Montaña";
-$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php";
-$claseBoton3 = "btn btn-rojo";
-
-$textoBoton4 = "Cultura";
-$linkBoton4 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
-$claseBoton4 = "btn btn-outline-azul";
 
 include '../components/component-hero-secciones.php';
 ?>
@@ -67,29 +50,6 @@ include("../components/component-card-texto-sombreado.php");
 
 include __DIR__ . '/../components/component-ultimas-noticias.php';?>
 
-<hr class="w-50 mx-auto">
-
-<?php
-
-$textoBoton1 = "Normativa";
-$linkBoton1 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
-$claseBoton1 = "btn btn-amarillo";
-
-$textoBoton2 = "Condiciones";
-$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
-$claseBoton2 = "boton-hero-secciones btn btn-outline-verde";
-
-$textoBoton3 = "Licencia";
-$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php";
-$claseBoton3 = "btn btn-rojo";
-
-$textoBoton4 = "Marchas";
-$linkBoton4 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
-$claseBoton4 = "btn btn-outline-azul";
-
-include '../components/component-card-botones.php';
-
-?>
 
 <!-- card-montaña -->
 
