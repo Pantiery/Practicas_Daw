@@ -10,10 +10,8 @@ $subtituloHero = "Espacios para disfrutar.";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-secciones/ferrocarril1.jpg",
-    "../assets/img/heros/hero-secciones/ferrocarril2.jpg",
-    "../assets/img/heros/hero-secciones/ferrocarril3.jpg",
-    "../assets/img/heros/hero-secciones/ferrocarril4.jpg"
+    "../assets/img/heros/hero-principal/fondo_hero.jpg",
+    "../assets/img/heros/hero-principal/fondo_hero3.jpg"
 ];
 
 include '../components/component-hero-secciones.php';
