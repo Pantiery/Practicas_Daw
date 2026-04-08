@@ -38,6 +38,19 @@
 
 }
 
+/* Logo hero */
+@media (max-width: 768px){
+    .hero-logo{
+        width: 180px !important;
+    }
+}
+
+@media (max-width: 480px){
+    .hero-logo{
+        width: 140px !important;
+    }
+}
+
 /* Sticky nav móviles */
 
 @media (max-width:768px){

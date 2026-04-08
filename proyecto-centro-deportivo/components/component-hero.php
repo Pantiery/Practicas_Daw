@@ -16,6 +16,15 @@
 
   <!-- Contenido del hero -->
   <div class="hero-principal hero-content text-center">
+
+    <?php if (isset($logoHero)): ?>
+      <img src="<?= $logoHero ?>" class="hero-logo" alt="logo">
+    <?php else: ?>
+      <h1>
+        <?= $tituloHero ?>
+      </h1>
+    <?php endif; ?>
+
     <h1 class="seccion-titulo display-4"><?php echo $tituloHero; ?></h1>
 
     <a class="text-decoration-none" href="<?php echo $linkSubtitulo; ?>">

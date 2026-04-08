@@ -30,7 +30,7 @@
 }
 
 /* =========================
-   BOTONES HERO SECCIONES
+   BOTONES SECCION NOTICIAS
 ========================= */
 
 .btn-amarillo{
@@ -69,7 +69,7 @@
 
 .btn-outline-azul{
     border: 2px solid  rgb(26, 26, 110);
-    color:  white;
+    color:  rgb(26, 26, 110);
 }
 
 .btn-outline-azul:hover{
@@ -102,6 +102,23 @@
 .btn-outline-verde-interno:hover{
     background-color: rgb(35, 93, 35);
     color: white;
+}
+
+/* =========================
+   BOTON HEADER
+========================= */
+.btn-header{
+    align-content: center;
+    text-decoration: none;
+    background-color: #ff7a00;
+    font-family: "Share Tech Mono", monospace;
+    color: white;
+    font-size: large;
+    margin: auto;
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 150px;
+    height: 60px;
 }
 
 /* =========================

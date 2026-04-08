@@ -5,8 +5,8 @@
 .hero{
     background-color: #0f2a44;
     position: relative;
-    min-height: 100vh;
-    min-height: 100svh;
+    min-height: 60vh;
+    min-height: 60svh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -51,4 +51,9 @@
     font-size: 1.2rem;
     color: #3188d9;
     font-family: "Share Tech Mono", monospace;
+}
+
+.hero-logo{
+    width: 100%;
+    max-width: 600px;
 }

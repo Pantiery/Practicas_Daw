@@ -1,10 +1,10 @@
 <?php include '../layout/header.php'; ?>
 
-<!-- hero-cultura -->
+<!-- hero-servicios -->
       <?php
 
-$tituloHero = "Cultura";
-$subtituloHero = "“La cultura es el alma de la sociedad.”";
+$tituloHero = "Servicios";
+$subtituloHero = "“Disponemos de los siguientes servicios.”";
 
 $linkSubtitulo = "#";
 
@@ -16,12 +16,6 @@ $imagenesHero = [
 
 include '../components/component-hero-secciones.php';
 ?>
-
-<!-- seccion-noticias -->
-
-<?php $categoria = "cultura";
-
-include __DIR__ . '/../components/component-ultimas-noticias.php';?>
 
 <!-- footer -->
 <?php include '../layout/footer.php'; ?>

@@ -40,54 +40,42 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/index.php">
-          <img class="logo-navbar" src="<?= $logoNavbar ?? '../assets/img/logos/logo-propio/logo-delicias.png' ?>" width="150" alt="logo_centro-deportivo">
-        </a>
+        <img class="logo-navbar" src="../assets/img/logos/logo-propio/logo-delicias.png"
+          width="150" alt="logo_centro-deportivo">
+      </a>
       <div class="collapse navbar-collapse" id="navbar-toggler">
-        
+
         <ul class="navbar-nav mx-auto text-center gap-lg-5">
           <li class="nav-item">
             <a class="nav-link" href="../public/index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/secciones.php">Secciones</a>
+            <a class="nav-link"
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php">Deporte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Medicina China</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-              Reservas
-            </a>
-
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Reservar sala</a></li>
-              <li><a class="dropdown-item" href="#">Calendario de actividades</a></li>
-            </ul>
+            <a class="nav-link"
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php">Montaña</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tienda</a>
+            <a class="nav-link"
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php">Cultura</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link"
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php">Reservas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Instalaciones</a>
+            <a class="nav-link"
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/instalaciones.php">Instalaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://centrodelicias.org/calendario-eventos/" target="blank">Calendario</a>
+            <a class="nav-link" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php"
+              target="blank">Servicios</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-              Socios
-            </a>
-
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
-              <li><a class="dropdown-item" href="#">Estatuto y reglamento</a></li>
-              <li><a class="dropdown-item" href="#">Precios</a></li>
-              <li><a class="dropdown-item" href="#">Hazte socio</a></li>
-            </ul>
-          </li>
+          <a href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/areaSocio.php" class="btn-header">
+            Área Socio
+          </a>
         </ul>
       </div>
     </div>
