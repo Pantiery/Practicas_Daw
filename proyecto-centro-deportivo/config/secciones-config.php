@@ -3,7 +3,7 @@
 $SECCIONES = [
 
     "montana" => [
-        "pagina" => "../pages/montaña.php",
+        "pagina" => "../pages/montana.php",
         "color" => "btn btn-rojo",
         "nombre" => "Montaña"
     ],
