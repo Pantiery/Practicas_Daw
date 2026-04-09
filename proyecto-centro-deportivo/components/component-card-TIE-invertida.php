@@ -1,5 +1,5 @@
 <section class="hero-section py-5">
-    <div class="container seccion-montaña">
+    <div class="container-fluid px-5 seccion-montaña">
         <div class="row align-items-center g-5">
 
             <?php if (!empty($tituloExtra)): ?>

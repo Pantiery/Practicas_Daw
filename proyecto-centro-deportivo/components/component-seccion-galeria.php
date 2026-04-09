@@ -10,7 +10,7 @@ if(empty($rutas)){
 
 ?>
 
-<section class="seccion-galeria container">
+<section class="seccion-galeria container-fluid">
 
     <?php if($tituloGaleria): ?>
         <h2 class="seccion-titulo text-center mb-4">

@@ -1,6 +1,6 @@
-<<section class="hero-section py-5">
-    <div class="container seccion-montaña">
-        <div class="row align-items-center g-4">
+<section class="hero-section py-5">
+    <div class="container-fluid px-5 seccion-montaña">
+        <div class="row align-items-center g-5">
 
             <?php if (!empty($tituloExtra)): ?>
                 <h2 class="seccion-subtitulo text-center mb-4"><?= $tituloExtra ?></h2>
@@ -15,9 +15,9 @@
 
             <!-- Texto -->
             <div class="col-12 col-md-6 text-md-start ms-md-auto">
-                <h1 class="hero-title"><?= $titulo ?></h1>
+                <h1 class="seccion-titulo"><?= $titulo ?></h1>
 
-                <p class="hero-text mt-3">
+                <p class="seccion-texto mt-3">
                     <?= $descripcion ?>
                 </p>
 
