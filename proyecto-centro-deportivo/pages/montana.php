@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/../config/app.php';
+require_once __DIR__ . '/../helpers/galeria.php';
+
 include("../layout/header.php");
-
-
 ?>
 
 <!-- hero-montaña -->
@@ -135,10 +135,8 @@ include '../components/component-card-TIE-invertida.php';
 
 <?php
 
-$titulo = "Galería de montaña";
-$descripcion = "Imágenes de nuestras excursiones y actividades";
-
-require_once __DIR__ . '/../helpers/galeria.php';
+$tituloGaleria = "Galería de montaña";
+$descripcionGaleria = "Imágenes de nuestras excursiones y actividades";
 
 $rutas = cargarGaleria();
 

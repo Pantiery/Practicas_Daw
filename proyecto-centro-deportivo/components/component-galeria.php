@@ -1,20 +1,12 @@
 <?php
 
 $rutas = $rutas ?? [];
-$tituloGaleria = $tituloGaleria ?? null;
 
 if (empty($rutas)) {
     return;
 }
 
 ?>
-
-<?php if($tituloGaleria): ?>
-    <h2 class="seccion-titulo text-center mb-5">
-        <?= htmlspecialchars($tituloGaleria) ?>
-    </h2>
-<?php endif; ?>
-
 
 
    <?php foreach ($rutas as $ruta): ?>

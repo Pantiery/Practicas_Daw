@@ -1,7 +1,7 @@
 <?php
 
-$titulo = $titulo ?? null;
-$descripcion = $descripcion ?? null;
+$tituloGaleria = $tituloGaleria ?? null;
+$descripcionGaleria = $descripcionGaleria ?? null;
 $rutas = $rutas ?? [];
 
 if(empty($rutas)){
@@ -12,15 +12,15 @@ if(empty($rutas)){
 
 <section class="seccion-galeria container">
 
-    <?php if($titulo): ?>
+    <?php if($tituloGaleria): ?>
         <h2 class="seccion-titulo text-center mb-4">
-            <?= htmlspecialchars($titulo) ?>
+            <?= htmlspecialchars($tituloGaleria) ?>
         </h2>
     <?php endif; ?>
 
-    <?php if($descripcion): ?>
+    <?php if($descripcionGaleria): ?>
         <p class="seccion-texto text-center mb-5">
-            <?= htmlspecialchars($descripcion) ?>
+            <?= htmlspecialchars($descripcionGaleria) ?>
         </p>
     <?php endif; ?>
 
