@@ -12,10 +12,10 @@ $subtituloHero = "Conoce más sobre nuestro Club Deportivo Delicias.";
 $linkSubtitulo = "#";
 
 $textoBoton1 = "Reservas";
-$linkBoton1 = "#";
+$linkBoton1 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
 
 $textoBoton2 = "Ver instalaciones";
-$linkBoton2 = "#";
+$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/instalaciones.php";
 
 $imagenesHero = [
     "../assets/img/heros/hero-secciones/ferrocarril1.jpg",
