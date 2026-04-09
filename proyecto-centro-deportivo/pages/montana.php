@@ -1,9 +1,12 @@
 <?php
+require_once __DIR__ . '/../config/app.php';
 include("../layout/header.php");
+
+
 ?>
 
 <!-- hero-montaña -->
-      <?php
+<?php
 
 $tituloHero = "Montaña";
 $subtituloHero = "“Las montañas no se conquistan, se respetan.”";
@@ -11,9 +14,9 @@ $subtituloHero = "“Las montañas no se conquistan, se respetan.”";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-montaña/montaña-hero-1.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
+  "../assets/img/heros/hero-montaña/montaña-hero-1.jpg",
+  "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
+  "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
 ];
 
 include '../components/component-hero-secciones.php';
@@ -48,7 +51,7 @@ include("../components/component-card-texto-sombreado.php");
 
 <?php $categoria = "montana";
 
-include __DIR__ . '/../components/component-ultimas-noticias.php';?>
+include __DIR__ . '/../components/component-ultimas-noticias.php'; ?>
 
 
 <!-- card-montaña -->
@@ -119,11 +122,29 @@ include '../components/component-card-TIE.php';
 
 <?php
 $tituloExtra = "Marchas";
-$titulo = "";
-$descripcion = "";
+$titulo = "Marchas de montaña";
+$descripcion = "Las marchas de montaña son actividades deportivas y recreativas que consisten en recorrer rutas por entornos naturales, generalmente en terrenos irregulares como senderos, bosques, montañas o caminos rurales. Estas marchas pueden tener un carácter competitivo o simplemente lúdico, y se adaptan a distintos niveles de dificultad, desde rutas accesibles para principiantes hasta recorridos exigentes para senderistas experimentados.
+Además de ser una excelente forma de ejercicio físico, las marchas de montaña permiten disfrutar del contacto directo con la naturaleza, desconectar del estrés diario y descubrir paisajes únicos. Durante el recorrido, es habitual atravesar distintos tipos de terreno, cambios de altitud y condiciones climáticas variables, lo que añade un componente de aventura y superación personal.
+Para participar en una marcha de montaña es importante contar con un equipamiento adecuado, como calzado específico de senderismo, ropa cómoda y transpirable, así como agua y alimentos suficientes. También es recomendable conocer la ruta, respetar el entorno natural y seguir las indicaciones de seguridad para garantizar una experiencia agradable y segura.
+En definitiva, las marchas de montaña combinan deporte, naturaleza y ocio, convirtiéndose en una actividad ideal tanto para quienes buscan retos físicos como para aquellos que desean disfrutar del paisaje y el aire libre.";
+
 $imagen = "../assets/img/cards/card-montaña/programa-marzo-2026.jpg";
 $rutaPDF = "../assets/documentos/programa-marzo-2026.pdf";
 include '../components/component-card-TIE-invertida.php';
 ?>
+
+<?php
+
+$titulo = "Galería de montaña";
+$descripcion = "Imágenes de nuestras excursiones y actividades";
+
+require_once __DIR__ . '/../helpers/galeria.php';
+
+$rutas = cargarGaleria();
+
+include __DIR__ . '/../components/component-seccion-galeria.php';
+
+?>
+
 
 <?php include '../layout/footer.php'; ?>

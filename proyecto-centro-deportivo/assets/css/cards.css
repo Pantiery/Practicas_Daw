@@ -302,3 +302,96 @@
     height: 200px;
 }
 
+/* =========================
+   GALERIA FOTOS MONTAÑA
+========================= */
+.galeria-grid{
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-rows: 200px;
+    margin: 80px 0;
+}
+
+.galeria-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.galeria-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* hover zoom */
+
+.galeria-item:hover img{
+    transform: scale(1.1);
+}
+
+/* algunas grandes */
+
+.galeria-item:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.galeria-item:nth-child(4){
+    grid-column: span 2;
+}
+
+/* =========================
+   LIGHTBOX GALERIA
+========================= */
+.lightbox{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.lightbox img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.cerrar{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* =========================
+   OVERLAY GALERIA
+========================= */
+
+.galeria-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.galeria-item:hover .galeria-overlay{
+    opacity: 1;
+}

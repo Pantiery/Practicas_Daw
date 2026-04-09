@@ -81,6 +81,8 @@
     };
 
 </script>
+
+<script src="<?= BASE_URL ?>assets/js/galeria.js"></script>
 </body>
 
 </html>
