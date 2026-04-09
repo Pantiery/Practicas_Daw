@@ -55,7 +55,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link"
-              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php">Montaña</a>
+              href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montana.php">Montaña</a>
           </li>
           <li class="nav-item">
             <a class="nav-link"
