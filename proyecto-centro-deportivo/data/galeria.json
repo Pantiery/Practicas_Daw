@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pe\u00f1alara",
+        "descripcion": "Ruta con nieve",
+        "imagenes": [
+            "montana1.jpg",
+            "montana2.avif",
+            "montana7.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Navacerrada",
+        "descripcion": "D\u00eda despejado",
+        "imagenes": [
+            "montana3.jpg",
+            "montana4.avif",
+            "montana8.webp"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Everest 2026",
+        "descripcion": "Subimos 4 y bajamos 2",
+        "imagenes": [
+            "montana5.webp",
+            "montana6.jpg"
+        ]
+    }
+]

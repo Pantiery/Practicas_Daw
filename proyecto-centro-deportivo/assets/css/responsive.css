@@ -150,3 +150,35 @@ body {
 }
 
 }
+
+/* =========================
+   RESPONSIVE GALERIA
+========================= */
+
+/* tablets */
+@media (max-width: 992px){
+    .galeria-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-item:nth-child(1){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .galeria-item:nth-child(4){
+        grid-column: span 2;
+    }
+}
+
+/* móviles */
+@media (max-width: 576px){
+    .galeria-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-item{
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+}
