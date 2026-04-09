@@ -10,10 +10,8 @@ $subtituloHero = "Espacios para disfrutar.";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-deportes/budo-taijutsu.webp",
-    "../assets/img/heros/hero-deportes/football.jpg",
-    "../assets/img/heros/hero-deportes/tenis.jpg",
-    "../assets/img/heros/hero-deportes/padel.webp"
+    "../assets/img/heros/hero-principal/fondo_hero.jpg",
+    "../assets/img/heros/hero-principal/fondo_hero3.jpg"
 ];
 
 include '../components/component-hero-secciones.php';

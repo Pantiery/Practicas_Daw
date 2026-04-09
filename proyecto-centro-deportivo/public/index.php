@@ -12,14 +12,16 @@ $subtituloHero = "Conoce más sobre nuestro Club Deportivo Delicias.";
 $linkSubtitulo = "#";
 
 $textoBoton1 = "Reservas";
-$linkBoton1 = "#";
+$linkBoton1 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
 
 $textoBoton2 = "Ver instalaciones";
-$linkBoton2 = "#";
+$linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/instalaciones.php";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-principal/fondo_hero.jpg",
-    "../assets/img/heros/hero-principal/fondo_hero3.jpg"
+    "../assets/img/heros/hero-secciones/ferrocarril1.jpg",
+    "../assets/img/heros/hero-secciones/ferrocarril2.jpg",
+    "../assets/img/heros/hero-secciones/ferrocarril3.jpg",
+    "../assets/img/heros/hero-secciones/ferrocarril4.jpg"
 ];
 
 include '../components/component-hero.php';
@@ -46,7 +48,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-secciones/montana1.jpg";
         $titulo = "Montaña";
         $descripcion = "Camina al aire libre, sé libre.";
-        $link = "montaña.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montana.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -54,7 +56,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/tenis.jpg";
         $titulo = "Tenis";
         $descripcion = "Créete un profesional.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -62,7 +64,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/futbol-sala.jpg";
         $titulo = "Fútbol sala";
         $descripcion = "Juega, diviértete.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -70,7 +72,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/yoga.jpg";
         $titulo = "Yoga";
         $descripcion = "Mejora tu condición física.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -78,7 +80,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/ping pong.jpg";
         $titulo = "Ping Pong";
         $descripcion = "A lo grande o pequeño.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -86,7 +88,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Barbacoa_provisional.jpg";
         $titulo = "Barbacoa";
         $descripcion = "Carne o verdura a la brasa.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -96,7 +98,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-secciones/montana1.jpg";
         $titulo = "Montaña";
         $descripcion = "Camina al aire libre, sé libre.";
-        $link = "montaña.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montana.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -104,7 +106,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/tenis.jpg";
         $titulo = "Tenis";
         $descripcion = "Créete un profesional.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -112,7 +114,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/futbol-sala.jpg";
         $titulo = "Fútbol sala";
         $descripcion = "Juega, diviértete.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -120,7 +122,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/yoga.jpg";
         $titulo = "Yoga";
         $descripcion = "Mejora tu condición física.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -128,7 +130,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/ping pong.jpg";
         $titulo = "Ping Pong";
         $descripcion = "A lo grande o pequeño.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -136,7 +138,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Barbacoa_provisional.jpg";
         $titulo = "Barbacoa";
         $descripcion = "Carne o verdura a la brasa.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -146,7 +148,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-secciones/montana1.jpg";
         $titulo = "Montaña";
         $descripcion = "Camina al aire libre, sé libre.";
-        $link = "montaña.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montana.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -154,7 +156,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/tenis.jpg";
         $titulo = "Tenis";
         $descripcion = "Créete un profesional.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -162,7 +164,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/futbol-sala.jpg";
         $titulo = "Fútbol sala";
         $descripcion = "Juega, diviértete.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -170,7 +172,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/yoga.jpg";
         $titulo = "Yoga";
         $descripcion = "Mejora tu condición física.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -178,7 +180,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/ping pong.jpg";
         $titulo = "Ping Pong";
         $descripcion = "A lo grande o pequeño.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -186,7 +188,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Barbacoa_provisional.jpg";
         $titulo = "Barbacoa";
         $descripcion = "Carne o verdura a la brasa.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -204,7 +206,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/padel.jpg";
         $titulo = "Pádel";
         $descripcion = "Intensidad, esfuerzo, diversión.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -212,7 +214,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/coro.jpg";
         $titulo = "Coro";
         $descripcion = "Te gusta cantar?.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -220,7 +222,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Cafeteria_provisional.jpeg";
         $titulo = "Cafetería";
         $descripcion = "Tu espacio, tu café.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -228,7 +230,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/danza.jpg";
         $titulo = "Danza";
         $descripcion = "¿Bailamos?.";
-        $link = "ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -236,7 +238,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Sala_de_juntas_provisional.jpg";
         $titulo = "Eventos";
         $descripcion = "Tus fiestas y eventos.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
         
@@ -248,7 +250,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/padel.jpg";
         $titulo = "Pádel";
         $descripcion = "Intensidad, esfuerzo, diversión.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -256,7 +258,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/coro.jpg";
         $titulo = "Coro";
         $descripcion = "Te gusta cantar?.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -264,7 +266,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Cafeteria_provisional.jpeg";
         $titulo = "Cafetería";
         $descripcion = "Tu espacio, tu café.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -272,7 +274,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/danza.jpg";
         $titulo = "Danza";
         $descripcion = "¿Bailamos?.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -280,7 +282,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Sala_de_juntas_provisional.jpg";
         $titulo = "Eventos";
         $descripcion = "Tus fiestas y eventos.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -291,7 +293,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-deporte/padel.jpg";
         $titulo = "Pádel";
         $descripcion = "Intensidad, esfuerzo, diversión.";
-        $link = "deportes.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -299,7 +301,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/coro.jpg";
         $titulo = "Coro";
         $descripcion = "Te gusta cantar?.";
-        $link = "cultura.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -307,7 +309,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Cafeteria_provisional.jpeg";
         $titulo = "Cafetería";
         $descripcion = "Tu espacio, tu café.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -315,7 +317,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-cultura/danza.jpg";
         $titulo = "Danza";
         $descripcion = "¿Bailamos?.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/cultura.php";
         include '../components/component-seccion-card.php';
         ?>
 
@@ -323,7 +325,7 @@ include __DIR__ . '/../components/component-ultimas-noticias.php';
         $imagen = "../assets/img/cards/card-ocio/Sala_de_juntas_provisional.jpg";
         $titulo = "Eventos";
         $descripcion = "Tus fiestas y eventos.";
-        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/ocio.php";
+        $link = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/reservas.php";
         include '../components/component-seccion-card.php';
         ?>
 

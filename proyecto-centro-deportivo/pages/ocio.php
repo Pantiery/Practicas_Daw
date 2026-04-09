@@ -24,7 +24,7 @@ $linkBoton2 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/oc
 $claseBoton2 = "boton-hero-secciones btn btn-outline-verde";
 
 $textoBoton3 = "Montaña";
-$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montaña.php";
+$linkBoton3 = "http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/montana.php";
 $claseBoton3 = "btn btn-rojo";
 
 $textoBoton4 = "Cultura";
