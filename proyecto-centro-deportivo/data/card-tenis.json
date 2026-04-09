@@ -1,0 +1,75 @@
+{
+  "cards": [
+    {
+      "imagen": "../assets/img/cards/card-deporte/personaTenis.jpeg",
+      "titulo": "Escuela",
+      "contenido": [
+        { "tipo": "parrafo", "texto": "Clases para adultos e infantiles con monitores cualificados, adaptadas a todos los niveles." },
+        { "tipo": "titulo", "texto": "Tarifas orientativas:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "1h/semana: desde 32€ (niños) / 37€ (adultos)",
+            "2h/semana: desde 55€ / 65€",
+            "Clases particulares: desde 40€"
+          ]
+        },
+        { "tipo": "titulo", "texto": "Horarios:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "Adultos: mañanas y tardes (L-V)",
+            "Infantil: tardes y sábados"
+          ]
+        },
+        { "tipo": "parrafo", "texto": "Plazas disponibles para escuela infantil." }
+      ],
+      "link": "#"
+    },
+    {
+      "imagen": "../assets/img/cards/card-deporte/redTenis.jpeg",
+      "titulo": "Alquiler",
+      "contenido": [
+        { "tipo": "parrafo", "texto": "Reserva de pistas de tenis mediante la app Playtomic. Disponible en pistas de césped y cemento." },
+        { "tipo": "titulo", "texto": "Horarios:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "Lunes a domingo con distintas franjas",
+            "Disponibilidad variable según pista"
+          ]
+        },
+        { "tipo": "titulo", "texto": "Precios:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "1h: 8€ socios / 16€ no socios",
+            "1h 30min: 12€ / 24€",
+            "2h: 16€ / 30€"
+          ]
+        },
+        { "tipo": "parrafo", "texto": "Suplemento luz: 3,5€/hora" }
+      ],
+      "link": "https://playtomic.com/clubs/centro-delicias-madrid?q=PADEL~2023-02-10~~~"
+    },
+    {
+      "imagen": "../assets/img/cards/card-deporte/pelotaTenis.jpeg",
+      "titulo": "Ranking / Torneo",
+      "contenido": [
+        { "tipo": "parrafo", "texto": "Participa en el ranking anual del club con diferentes fases y grupos por nivel." },
+        { "tipo": "titulo", "texto": "Formato:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "Fase de grupos inicial",
+            "Segunda fase clasificatoria",
+            "Eliminatorias (octavos, cuartos, semifinal y final)"
+          ]
+        },
+        { "tipo": "parrafo", "texto": "Competición progresiva para jugadores de todos los niveles con seguimiento de resultados." },
+        { "tipo": "parrafo", "texto": "Inscripciones próximamente disponibles." }
+      ],
+      "link": "#"
+    }
+  ]
+}

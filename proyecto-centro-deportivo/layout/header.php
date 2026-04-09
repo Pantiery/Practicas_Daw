@@ -70,8 +70,7 @@
               href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/public/instalaciones.php">Instalaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php"
-              target="blank">Servicios</a>
+            <a class="nav-link" href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/servicios.php">Servicios</a>
           </li>
           <a href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/areaSocio.php" class="btn-header">
             Área Socio
