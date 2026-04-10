@@ -82,7 +82,12 @@
 
 </script>
 
+<!-- script de galería -->
 <script src="<?= BASE_URL ?>assets/js/galeria.js"></script>
+
+<!-- script de instalaciones -->
+<script src="<?= BASE_URL ?>assets/js/instalaciones.js"></script>
+
 </body>
 
 </html>

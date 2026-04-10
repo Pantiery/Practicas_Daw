@@ -397,6 +397,52 @@
 }
 
 /* =========================
+   CARD INSTALACIONES      
+========================= */
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.card-instalacion .card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-instalacion {
+    height: 100%;
+}
+
+.card-instalacion {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-instalacion:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-instalacion {
+    border-radius: 12px; /* o el que uses */
+    overflow: hidden;
+}
+
+.card-instalacion:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-instalacion .card-img-top {
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 1.5s ease-in-out, transform 0.8s ease;
+}
+
+/* =========================
    CARD CULTURA
 ========================= */
 
