@@ -395,3 +395,14 @@
 .galeria-item:hover .galeria-overlay{
     opacity: 1;
 }
+
+/* =========================
+   CARD CULTURA
+========================= */
+
+.card-cultura-img {
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
