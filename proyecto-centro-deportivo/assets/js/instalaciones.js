@@ -6,27 +6,67 @@ document.addEventListener("DOMContentLoaded", () => {
         let i = 0;
 
         const img = card.querySelector('.fade-img');
+        const btnNext = card.querySelector('.next');
+        const btnPrev = card.querySelector('.prev');
 
+        // si no hay imágenes o solo 1 → no hacemos nada
         if (!imagenes || imagenes.length <= 1) return;
 
-        // 🔥 delay inicial aleatorio
-        const delayInicial = Math.random() * 3000;
+        // 🔥 PRELOAD
+        imagenes.forEach(src => {
+            const preloadImg = new Image();
+            preloadImg.src = src;
+        });
 
-        setTimeout(() => {
+        let intervalo;
 
-            setInterval(() => {
+        // 🔄 cambiar imagen
+        const cambiarImagen = (nuevoIndex) => {
 
-                img.classList.add('fade-out');
+            img.classList.add('fade-out');
 
-                setTimeout(() => {
-                    i = (i + 1) % imagenes.length;
-                    img.src = imagenes[i];
-                    img.classList.remove('fade-out');
-                }, 1200);
+            setTimeout(() => {
+                i = (nuevoIndex + imagenes.length) % imagenes.length;
+                img.src = imagenes[i];
+                img.classList.remove('fade-out');
+            }, 1200);
 
+        };
+
+        // ▶️ auto
+        const iniciarAuto = () => {
+            intervalo = setInterval(() => {
+                cambiarImagen(i + 1);
             }, 10000);
+        };
 
-        }, delayInicial);
+        // 🔁 reiniciar auto (cuando usuario interactúa)
+        const reiniciarAuto = () => {
+            clearInterval(intervalo);
+            iniciarAuto();
+        };
+
+        // 🎮 controles manuales (solo si existen)
+        if (btnNext && btnPrev) {
+
+            btnNext.addEventListener('click', (e) => {
+                e.preventDefault();
+                cambiarImagen(i + 1);
+                reiniciarAuto();
+            });
+
+            btnPrev.addEventListener('click', (e) => {
+                e.preventDefault();
+                cambiarImagen(i - 1);
+                reiniciarAuto();
+            });
+
+        }
+
+        // ⏱ delay inicial aleatorio
+        setTimeout(() => {
+            iniciarAuto();
+        }, Math.random() * 3000);
 
     });
 

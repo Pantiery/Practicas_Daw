@@ -442,6 +442,40 @@
     transition: opacity 1.5s ease-in-out, transform 0.8s ease;
 }
 
+/* estilo flechas instalaciones */
+.btn-slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    
+    cursor: pointer;
+    z-index: 2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-slider.prev {
+    left: 10px;
+}
+
+.btn-slider.next {
+    right: 10px;
+}
+
+.btn-slider:hover {
+    background: rgba(0,0,0,0.8);
+}
+
 /* =========================
    CARD CULTURA
 ========================= */
