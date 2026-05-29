@@ -488,6 +488,44 @@
 }
 
 /* =========================
+   FORMULARIOS ADMIN
+========================= */
+
+.form-control,
+.form-select{
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* =========================
+   ADMIN NOTICIAS
+========================= */
+
+.form-control,
+.form-select{
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.btn-naranja{
+    background-color: #ff7a00;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+
+.btn-naranja:hover{
+    background-color: #e66f00;
+    color: white;
+}
+
+.card.shadow-dark {
+    border-radius: 20px;
+}
+
+/* =========================
    CARDS DEPORTES
 ========================= */
 

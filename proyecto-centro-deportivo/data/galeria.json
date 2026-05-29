@@ -25,7 +25,8 @@
         "descripcion": "Subimos 4 y bajamos 2",
         "imagenes": [
             "montana5.webp",
-            "montana6.jpg"
+            "montana6.jpg",
+            "monta\u00f1aMat_Javi.png"
         ]
     }
 ]

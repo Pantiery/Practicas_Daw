@@ -1,5 +1,8 @@
 <?php
 /** @var string $titulo */
+/** @var string $descripcion */
+/** @var string $imagen */
+/** @var string $link */
 ?>
 
 <div class="col-12 col-md-6 col-lg-4 d-flex mb-4">

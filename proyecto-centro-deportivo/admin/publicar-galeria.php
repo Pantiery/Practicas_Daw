@@ -10,8 +10,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
     $tipo = $_POST['tipo'];
 
-    /* subir imagen */
     $nombre = $_FILES['imagen']['name'];
+
     move_uploaded_file(
         $_FILES['imagen']['tmp_name'],
         __DIR__ . '/../assets/img/galeria/' . $nombre
@@ -39,36 +39,131 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         }
     }
 
-    file_put_contents($rutaJson, json_encode($rutas, JSON_PRETTY_PRINT));
+    file_put_contents(
+        $rutaJson,
+        json_encode($rutas, JSON_PRETTY_PRINT)
+    );
 }
+
+include '../layout/header.php';
 ?>
 
-<form method="POST" enctype="multipart/form-data">
+<div style="height:240px;"></div>
 
-<h3>Tipo</h3>
-<select name="tipo">
-    <option value="nueva">Nueva ruta</option>
-    <option value="existente">Añadir a ruta existente</option>
-</select>
+<section class="container admin-page py-5">
 
-<h3>Título</h3>
-<input type="text" name="titulo">
+<div class="row justify-content-center">
 
-<h3>Descripción</h3>
-<textarea name="descripcion"></textarea>
+    <div class="col-lg-8">
 
-<h3>Ruta existente</h3>
-<select name="ruta_id">
-    <?php foreach($rutas as $ruta): ?>
-        <option value="<?= $ruta['id'] ?>">
-            <?= $ruta['titulo'] ?>
-        </option>
-    <?php endforeach; ?>
-</select>
+        <div class="card card-contacto">
 
-<h3>Imagen</h3>
-<input type="file" name="imagen" required>
+            <div class="card-body p-5">
 
-<button type="submit">Guardar</button>
+                <h1 class="text-center mb-4">
+                    Publicar galería
+                </h1>
 
-</form>
+                <form method="POST" enctype="multipart/form-data">
+
+                    <div class="mb-4">
+
+                        <label class="form-label fw-bold">
+                            Tipo de publicación
+                        </label>
+
+                        <select name="tipo" class="form-select">
+                            <option value="nueva">Nueva galería</option>
+                            <option value="existente">
+                                Añadir imagen a galería existente
+                            </option>
+                        </select>
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label fw-bold">
+                            Título
+                        </label>
+
+                        <input
+                            type="text"
+                            name="titulo"
+                            class="form-control">
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label fw-bold">
+                            Descripción
+                        </label>
+
+                        <textarea
+                            name="descripcion"
+                            rows="5"
+                            class="form-control"></textarea>
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label fw-bold">
+                            Galería existente
+                        </label>
+
+                        <select name="ruta_id" class="form-select">
+
+                            <?php foreach($rutas as $ruta): ?>
+
+                                <option value="<?= $ruta['id'] ?>">
+                                    <?= $ruta['titulo'] ?>
+                                </option>
+
+                            <?php endforeach; ?>
+
+                        </select>
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label fw-bold">
+                            Imagen
+                        </label>
+
+                        <input
+                            type="file"
+                            name="imagen"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="text-center">
+
+                        <button
+                            type="submit"
+                            class="btn btn-naranja px-5">
+
+                            Guardar galería
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<?php include '../layout/footer.php'; ?>

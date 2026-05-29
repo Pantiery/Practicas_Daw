@@ -94,5 +94,13 @@
         "fecha": "2026-02-12",
         "imagen": "concierto-acustico.jpg",
         "texto": "Un grupo local ofrecer\u00e1 un concierto ac\u00fastico en el sal\u00f3n principal del centro el pr\u00f3ximo viernes por la tarde."
+    },
+    {
+        "id": 13,
+        "titulo": "H\u00e9roes monta\u00f1istas!",
+        "categoria": "montana",
+        "fecha": "2026-05-29",
+        "imagen": "monta\u00f1aMat_Javi.png",
+        "texto": "Los 2 monta\u00f1istas que salvaron a un pueblo parando un alud con sus manos."
     }
 ]
