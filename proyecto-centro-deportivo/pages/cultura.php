@@ -9,9 +9,9 @@ $subtituloHero = "“La cultura es el alma de la sociedad.”";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-montaña/montaña-hero-1.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
+    "../assets/img/heros/hero-cultura/cultura1.jpg",
+    "../assets/img/heros/hero-cultura/cultura2.jpg",
+    "../assets/img/heros/hero-cultura/cultura3.jpg"
 ];
 
 include '../components/component-hero-secciones.php';

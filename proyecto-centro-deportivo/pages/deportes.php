@@ -96,41 +96,89 @@ $boton2 = "Ver disponibilidad";
 include '../components/component-card-TIB-invertida.php';
 ?>
 
-<!-- cards escuela de tenis -->
+<!-- escuelas tenis y pádel -->
 
 <hr class="w-50 mx-auto">
 
 <section class="container-fluid fondo-card-hero-principal my-5">
 
-    <h2 class="seccion-subtitulo text-center mb-4">Escuela de tenis</h2>
-
-    <?php
-    $ruta = __DIR__ . '/../data/card-tenis.json';
-
-    $cards = [];
-
-    if (file_exists($ruta)) {
-        $json = file_get_contents($ruta);
-        $data = json_decode($json, true);
-
-        $cards = $data['cards'] ?? [];
-    }
-    ?>
-
     <div class="row">
 
-        <?php foreach ($cards as $card): ?>
+        <!-- TENIS -->
+        <div class="col-12 col-xxl-6">
+
+            <h2 class="seccion-subtitulo text-center mb-4">
+                Escuela de tenis
+            </h2>
 
             <?php
-            $imagen = $card['imagen'];
-            $titulo = $card['titulo'];
-            $contenido = $card['contenido'];
-            $link = $card['link'];
+            $ruta = __DIR__ . '/../data/card-tenis.json';
 
-            include '../components/component-card-deporte.php';
+            $cards = [];
+
+            if (file_exists($ruta)) {
+                $json = file_get_contents($ruta);
+                $data = json_decode($json, true);
+                $cards = $data['cards'] ?? [];
+            }
             ?>
 
-        <?php endforeach; ?>
+            <div class="row">
+
+                <?php foreach ($cards as $card): ?>
+
+                    <?php
+                    $imagen = $card['imagen'];
+                    $titulo = $card['titulo'];
+                    $contenido = $card['contenido'];
+                    $link = $card['link'];
+
+                    include '../components/component-card-deporte.php';
+                    ?>
+
+                <?php endforeach; ?>
+
+            </div>
+
+        </div>
+
+        <!-- PADEL -->
+        <div class="col-12 col-xxl-6">
+
+            <h2 class="seccion-subtitulo text-center mb-4">
+                Escuela de pádel
+            </h2>
+
+            <?php
+            $ruta = __DIR__ . '/../data/card-padel.json';
+
+            $cards = [];
+
+            if (file_exists($ruta)) {
+                $json = file_get_contents($ruta);
+                $data = json_decode($json, true);
+                $cards = $data['cards'] ?? [];
+            }
+            ?>
+
+            <div class="row">
+
+                <?php foreach ($cards as $card): ?>
+
+                    <?php
+                    $imagen = $card['imagen'];
+                    $titulo = $card['titulo'];
+                    $contenido = $card['contenido'];
+                    $link = $card['link'];
+
+                    include '../components/component-card-deporte.php';
+                    ?>
+
+                <?php endforeach; ?>
+
+            </div>
+
+        </div>
 
     </div>
 
