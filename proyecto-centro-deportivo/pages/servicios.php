@@ -9,9 +9,9 @@ $subtituloHero = "“Disponemos de los siguientes servicios.”";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-montaña/montaña-hero-1.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
+    "../assets/img/cards/card-instalaciones/padel3.jpeg",
+    "../assets/img/cards/card-instalaciones/parrilla1.jpg",
+    "../assets/img/cards/card-instalaciones/dojo3.jpg"
 ];
 
 include '../components/component-hero-secciones.php';

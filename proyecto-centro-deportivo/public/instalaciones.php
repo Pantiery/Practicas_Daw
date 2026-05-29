@@ -13,9 +13,9 @@ $subtituloHero = "“Descubre nuestras instalaciones de lujo.”";
 $linkSubtitulo = "#";
 
 $imagenesHero = [
-    "../assets/img/heros/hero-montaña/montaña-hero-1.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-2.jpg",
-    "../assets/img/heros/hero-montaña/montaña-hero-3.jpg"
+    "../assets/img/cards/card-instalaciones/cafeteria2.jpg",
+    "../assets/img/cards/card-instalaciones/parrilla2.jpg",
+    "../assets/img/cards/card-instalaciones/cafeteria1.webp"
 ];
 
 include '../components/component-hero-secciones.php';
@@ -206,15 +206,22 @@ include '../components/component-hero-secciones.php';
 
         <?php
         $imagenes = [
-            "../assets/img/cards/card-instalaciones/medicina china1.jpg",
-            "../assets/img/cards/card-instalaciones/medicina china2.jpg"
+            "../assets/img/cards/card-instalaciones/vestuarios1.jpg",
+            "../assets/img/cards/card-instalaciones/vestuarios2.jpg"
         ];
 
-        $titulo = "Sala de medicina China";
-        $descripcion = "Espacio dedicado a la práctica de la medicina tradicional china, incluyendo acupuntura, fitoterapia y otras terapias relacionadas.";
+        $titulo = "Vestuarios";
+        $descripcion = "Área dedicada a la vestimenta y el cuidado personal de los usuarios.";
         $link = "#";
 
         include '../components/component-card-instalaciones.php';
+        ?>
+
+        <?php
+        $imagenes = [
+            "../assets/img/cards/card-instalaciones/sala polivalente6.jpg",
+            "../assets/img/cards/card-instalaciones/sala polivalente5.jpg"
+        ];
         ?>
 
     </div>

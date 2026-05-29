@@ -18,13 +18,11 @@
             <!-- Enlaces -->
             <div class="col-12 col-md-4">
                 <ul class="list-unstyled">
-                    <li class="mb-2 seccion-subtitulo"><a href="#" class="text-light">Nosotros</a>
+                    <li class="mb-2 seccion-subtitulo"><a href="../public/nosotros.php" target="_blank" class="text-light">Nosotros</a>
                     </li>
-                    <li class="mb-2 seccion-subtitulo"><a href="#" class="text-light">Contacto</a>
+                    <li class="mb-2 seccion-subtitulo"><a href="../public/contacto.php" target="_blank" class="text-light">Contacto</a>
                     </li>
-                    <li class="mb-2 seccion-subtitulo"><a href="#" class="text-light">Encuesta</a>
-                    </li>
-                    <li class="mb-2 seccion-subtitulo"><a href="#" class="text-light">Aviso legal</a>
+                    <li class="mb-2 seccion-subtitulo"><a href="../pages/aviso-legal.php" target="_blank" class="text-light">Aviso legal</a>
                     </li>
                     <li class="mb-2 seccion-subtitulo">Horario:</li>
                     <li class="mb-2 seccion-texto">
@@ -41,8 +39,11 @@
                     <a href="https://www.facebook.com/centrodelicias" target="blank" class="text-light">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="text-light me-3">Política de Privacidad</a>
-                    <a href="#" class="text-light me-3">Términos de Servicio</a>
+                    <a href="../pages/politica-privacidad.php" class="text-light me-3">Política de Privacidad</a>
+                    <a href="../pages/condiciones-legales.php" class="text-light me-3">Condiciones Legales</a>
+                    <a href="../pages/politica-venta.php" class="text-light me-3">Política de Venta</a>
+                    <a href="../pages/devoluciones.php" class="text-light me-3">Devoluciones</a>
+                    <a href="../pages/metodos-pago.php" class="text-light me-3">Métodos de Pago</a>
                     <p class="text-light me-3">© 2026 Club Deportivo Centro Delicias.</p>
                     <p class="text-light me-3">Todos los derechos reservados.</p>
                 </div>
@@ -51,6 +52,17 @@
         </div>
     </div>
 </footer>
+
+<a href="https://wa.me/34680647070"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="WhatsApp">
+
+    <i class="bi bi-whatsapp"></i>
+
+    <span>680 647 070</span>
+
+</a>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -150,3 +150,98 @@
 #btnTop:hover{
   background-color: #e66d00;
 }
+
+/* =========================
+CONTACTO
+========================= */
+
+.card-contacto{
+border: none;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,.08);
+transition: all .3s ease;
+}
+
+.card-contacto:hover{
+transform: translateY(-8px);
+}
+
+.card-contacto .card-body{
+padding: 40px 25px;
+}
+
+.card-contacto h4,
+.card-contacto h5{
+color: #0f2a44;
+}
+
+.icono-contacto{
+font-size: 3rem;
+color: #ff7a00;
+margin-bottom: 20px;
+}
+
+.icono-red{
+font-size: 3rem;
+color: #0f2a44;
+transition: all .3s ease;
+}
+
+.icono-red:hover{
+color: #ff7a00;
+transform: scale(1.1);
+}
+
+.form-control{
+border-radius: 10px;
+}
+
+.ratio iframe{
+border-radius: 20px;
+}
+
+/* =========================
+NOSOTROS
+========================= */
+
+.fondo-nosotros{
+background: #0f2a44;
+}
+
+.card-historia{
+border: none;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,.08);
+transition: .3s ease;
+}
+
+.card-historia:hover{
+transform: translateY(-8px);
+}
+
+.anio-historia{
+color: #ff7a00;
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.card-valor{
+border: none;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,.15);
+transition: .3s ease;
+}
+
+.card-valor:hover{
+transform: translateY(-5px);
+}
+
+.card-valor h4{
+color: #0f2a44;
+margin-bottom: 15px;
+}
+
+.fondo-nosotros .card{
+background: white;
+}

@@ -24,3 +24,54 @@ html, body{
     font-family: "Quicksand", sans-serif;
 }
 
+/* =========================
+   WHATSAPP FLOTANTE
+========================= */
+
+.whatsapp-float{
+    position: fixed;
+    bottom: 150px;
+    right: 25px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 18px;
+    border-radius: 50px;
+
+    font-weight: 600;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+
+    transition: all .3s ease;
+}
+
+.whatsapp-float:hover{
+    transform: translateY(-3px);
+    color: white;
+}
+
+.whatsapp-float i{
+    font-size: 1.8rem;
+}
+
+@media (max-width: 768px){
+
+    .whatsapp-float span{
+        display: none;
+    }
+
+    .whatsapp-float{
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        padding: 0;
+    }
+
+}
