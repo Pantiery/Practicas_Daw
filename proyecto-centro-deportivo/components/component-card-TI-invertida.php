@@ -1,3 +1,7 @@
+<?php
+/** @var string $titulo */
+?>
+
 <section class="hero-section py-5">
     <div class="container-fluid px-5 seccion-montaña">
         <div class="row align-items-center g-5">

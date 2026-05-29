@@ -1,3 +1,7 @@
+<?php
+/** @var string $titulo */
+?>
+
 <div class="col-12 col-md-6 col-lg-4 d-flex mb-4">
     <a href="<?= $link ?>" target="_blank" class="card-link w-100">
 

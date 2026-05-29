@@ -1,3 +1,10 @@
+<?php
+/** @var string $titulo */
+/** @var string $descripcion */
+/** @var string $imagen */
+/** @var string $link */
+?>
+
 <a href="<?php echo $link; ?>" class="card-link">
 
 <div class="card-seccion">

@@ -1,3 +1,9 @@
+<?php
+/** @var array $imagenes */
+/** @var string $titulo */
+/** @var string $descripcion */
+?>
+
 <div class="col-12 col-md-6 col-lg-3 d-flex mb-4">
 
 

@@ -1,3 +1,10 @@
+<?php
+/** @var string $titulo */
+/** @var string $descripcion */
+/** @var string $imagen */
+/** @var string $rutaPDF */
+?>
+
 <section class="hero-section py-5">
     <div class="container-fluid px-5 seccion-montaña">
         <div class="row align-items-center g-5">

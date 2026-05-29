@@ -1,4 +1,6 @@
-
+<?php
+/** @var string $titulo */
+?>
 
 <section class="container texto-generico">
     <a class="enlace-federacion col-12 col-md-6" target="_blank" href="https://fmm.es/">

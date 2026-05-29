@@ -1,3 +1,9 @@
+<?php
+/** @var string $titulo */
+/** @var string $descripcion */
+/** @var string $imagen */
+?>
+
 <section class="container-fluid my-5">
     <div class="row justify-content-center">
         <div class="col-12">
