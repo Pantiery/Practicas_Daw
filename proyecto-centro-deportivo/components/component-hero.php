@@ -1,3 +1,15 @@
+<?php
+/** @var array $imagenesHero */
+/** @var string $tituloHero */
+/** @var string $subtituloHero */
+/** @var string $logoHero */
+/** @var string $linkSubtitulo */
+/** @var string $linkBoton1 */
+/** @var string $textoBoton1 */
+/** @var string $linkBoton2 */
+/** @var string $textoBoton2 */
+?>
+
 <section class="hero">
 
   <!-- Carousel fondo -->

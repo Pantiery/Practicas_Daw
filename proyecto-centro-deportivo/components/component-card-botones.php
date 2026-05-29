@@ -1,3 +1,14 @@
+<?php
+/** @var string $linkBoton1 */
+/** @var string $textoBoton1 */
+/** @var string $linkBoton2 */
+/** @var string $textoBoton2 */
+/** @var string $linkBoton3 */
+/** @var string $textoBoton3 */
+/** @var string $linkBoton4 */
+/** @var string $textoBoton4 */
+?>
+
 <section class="card-botones">
 
   <!-- Contenido del hero -->

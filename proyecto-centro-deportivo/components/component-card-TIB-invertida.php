@@ -1,3 +1,11 @@
+<?php
+/** @var string $titulo */
+/** @var string $descripcion */
+/** @var string $imagen */
+/** @var string $boton1 */
+/** @var string $boton2 */
+?>
+
 <section class="hero-section py-5">
     <div class="container-fluid px-5">
         <div class="row align-items-center g-4">
