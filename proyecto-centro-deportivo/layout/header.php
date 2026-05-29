@@ -43,12 +43,9 @@
         <img class="logo-navbar" src="../assets/img/logos/logo-propio/logo-delicias.png"
           width="150" alt="logo_centro-deportivo">
       </a>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
+      <div class="collapse navbar-collapse" id="navbar-toggler" >
 
         <ul class="navbar-nav mx-auto text-center gap-lg-5">
-          <li class="nav-item">
-            <a class="nav-link" href="../public/index.php">Inicio</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link"
               href="http://localhost/Practicas_Daw/proyecto-centro-deportivo/pages/deportes.php">Deporte</a>

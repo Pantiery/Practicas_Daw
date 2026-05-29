@@ -1,0 +1,105 @@
+{
+  "cards": [
+    {
+      "imagen": "../assets/img/cards/card-deporte/personaPadel.webp",
+      "titulo": "Escuela",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Clases para adultos e infantiles con monitores especializados, adaptadas a todos los niveles."
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Tarifas orientativas:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1h/semana: desde 30€ (niños) / 35€ (adultos)",
+            "2h/semana: desde 52€ / 62€",
+            "Clases particulares: desde 38€"
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Horarios:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Adultos: mañanas y tardes",
+            "Infantil: tardes y sábados"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Plazas disponibles para escuela infantil."
+        }
+      ],
+      "link": "#"
+    },
+    {
+      "imagen": "../assets/img/cards/card-deporte/pistaPadel.webp",
+      "titulo": "Alquiler",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Reserva de pistas de pádel mediante Playtomic.Disfruta de tus mejores partidos en nuestras pistas de última generación."
+        },
+        { "tipo": "titulo", "texto": "Horarios:" },
+        {
+          "tipo": "lista",
+          "items": [
+            "Lunes a domingo con distintas franjas",
+            "Disponibilidad variable según pista"
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Precios:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "60 min: 8€ socios / 16€ no socios",
+            "90 min: 12€ socios / 24€ no socios",
+            "120 min: 16€ socios / 30€ no socios"
+          ]
+        },
+        { "tipo": "parrafo", "texto": "Suplemento luz: 3,5€/hora" }
+      ],
+      "link": "https://playtomic.com"
+    },
+    {
+      "imagen": "../assets/img/cards/card-deporte/torneoPadel.jpg",
+      "titulo": "Ranking / Torneo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Competiciones periódicas para jugadores de todos los niveles."
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Formato:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Liga regular",
+            "Playoffs finales",
+            "Torneos sociales"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Participa en el ranking anual del club con diferentes fases y grupos por nivel."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Inscripciones próximamente disponibles."
+        }
+      ],
+      "link": "#"
+    }
+  ]
+}

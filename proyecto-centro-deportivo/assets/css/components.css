@@ -4,7 +4,7 @@
 
 .btn{
     transition: all .25s ease;
-    font-family: "Share Tech Mono", monospace;
+    font-family: "Quicksand", sans-serif;
 }
 
 .btn-naranja{
@@ -111,7 +111,7 @@
     align-content: center;
     text-decoration: none;
     background-color: #ff7a00;
-    font-family: "Share Tech Mono", monospace;
+    font-family: "Quicksand", sans-serif;
     color: white;
     font-size: large;
     margin: auto;

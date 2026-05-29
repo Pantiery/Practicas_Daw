@@ -1,4 +1,11 @@
-<div class="col-12 col-md-6 col-lg-4 d-flex mb-4">
+<?php
+/** @var string $titulo */
+/** @var string $imagen */
+/** @var array $contenido */
+/** @var string $link */
+?>
+
+<div class="col-12 d-flex mb-4">
     <a href="<?= $link ?>" target="_blank" class="card-link w-100">
 
         <div class="card h-100">
